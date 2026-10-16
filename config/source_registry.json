@@ -1,0 +1,40 @@
+[
+  {
+    "series_id": "DCOILWTICO",
+    "title": "Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma",
+    "provider": "U.S. Energy Information Administration (distributed by FRED)",
+    "release": "Spot Prices",
+    "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+    "units": "Dollars per Barrel",
+    "currency": "USD",
+    "geography": "United States (Cushing, Oklahoma benchmark)",
+    "frequency": "Daily (business days)",
+    "seasonal_adjustment": "Not seasonally adjusted",
+    "topic": "fuel",
+    "mapping_type": "direct for crude oil price statements; proxy for diesel or fuel-cost statements",
+    "publication_pattern": "Series pages seen were updated on Wednesdays with data up to the previous Monday. U.S. holidays appear as missing values.",
+    "approved": "yes",
+    "terms_checked_on": "2026-10-16",
+    "permitted_use": "Internal research and model development. Check the FRED and source terms before sharing data outside your organization.",
+    "notes": "Missing values are written as a dot in the CSV."
+  },
+  {
+    "series_id": "DEXINUS",
+    "title": "Indian Rupees to U.S. Dollar Spot Exchange Rate",
+    "provider": "Board of Governors of the Federal Reserve System (distributed by FRED)",
+    "release": "H.10 Foreign Exchange Rates",
+    "url": "https://fred.stlouisfed.org/series/DEXINUS",
+    "units": "Indian Rupees to One U.S. Dollar",
+    "currency": "INR per USD",
+    "geography": "India versus United States",
+    "frequency": "Daily (business days)",
+    "seasonal_adjustment": "Not seasonally adjusted",
+    "topic": "currency",
+    "mapping_type": "direct for INR per USD statements",
+    "publication_pattern": "Series pages seen were updated on Mondays with data up to the previous Friday.",
+    "approved": "yes",
+    "terms_checked_on": "2026-10-16",
+    "permitted_use": "Internal research and model development. Check the FRED and source terms before sharing data outside your organization.",
+    "notes": "Noon buying rates in New York City for cable transfers payable in foreign currencies. A higher value means a weaker rupee."
+  }
+]
