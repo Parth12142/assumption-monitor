@@ -1,0 +1,52 @@
+doc_id,page,text,reason
+plan1,1,NorthStar Freight Pvt. Ltd. | Business Plan 2026-2029 | CONFIDENTIAL,header_footer
+plan1,1,NorthStar Freight Business Plan - Draft v3,header_footer
+plan1,1,Page 1,page_label
+plan1,2,NorthStar Freight Pvt. Ltd. | Business Plan 2026-2029 | CONFIDENTIAL,header_footer
+plan1,2,NorthStar Freight Business Plan - Draft v3,header_footer
+plan1,2,Page 2,page_label
+plan1,3,NorthStar Freight Pvt. Ltd. | Business Plan 2026-2029 | CONFIDENTIAL,header_footer
+plan1,3,NorthStar Freight Business Plan - Draft v3,header_footer
+plan1,3,Page 3,page_label
+plan1,4,NorthStar Freight Pvt. Ltd. | Business Plan 2026-2029 | CONFIDENTIAL,header_footer
+plan1,4,NorthStar Freight Business Plan - Draft v3,header_footer
+plan1,4,Page 4,page_label
+plan1,5,NorthStar Freight Pvt. Ltd. | Business Plan 2026-2029 | CONFIDENTIAL,header_footer
+plan1,5,NorthStar Freight Business Plan - Draft v3,header_footer
+plan1,5,Page 5,page_label
+plan1,4,Item,table_fragment
+plan1,4,2025 (actual),table_fragment
+plan1,4,2026,table_fragment
+plan1,4,2027,table_fragment
+plan1,4,2028,table_fragment
+plan1,4,2029,table_fragment
+plan1,4,Revenue,table_fragment
+plan1,4,42.5,table_fragment
+plan1,4,52.0,table_fragment
+plan1,4,64.0,table_fragment
+plan1,4,79.0,table_fragment
+plan1,4,96.0,table_fragment
+plan1,4,Fuel cost,table_fragment
+plan1,4,16.2,table_fragment
+plan1,4,19.5,table_fragment
+plan1,4,23.8,table_fragment
+plan1,4,29.2,table_fragment
+plan1,4,35.1,table_fragment
+plan1,4,Operating profit,table_fragment
+plan1,4,3.9,table_fragment
+plan1,4,5.2,table_fragment
+plan1,4,7.0,table_fragment
+plan1,4,9.5,table_fragment
+plan1,4,12.5,table_fragment
+plan1,4,Operating margin,table_fragment
+plan1,4,9.2%,table_fragment
+plan1,4,10.0%,table_fragment
+plan1,4,10.9%,table_fragment
+plan1,4,12.0%,table_fragment
+plan1,4,13.0%,table_fragment
+plan1,4,Fleet size (trucks),table_fragment
+plan1,4,48,table_fragment
+plan1,4,58,table_fragment
+plan1,4,70,table_fragment
+plan1,4,90,table_fragment
+plan1,4,90,table_fragment

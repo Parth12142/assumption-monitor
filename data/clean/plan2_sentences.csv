@@ -1,0 +1,29 @@
+sentence_id,doc_id,page_start,page_end,pages,section,sentence,n_words,n_occurrences,percents,money,extraction_status
+plan2-0001,plan2,,,,GreenCart Retail Pvt. Ltd.: Business Plan 2026-2028,This is a fictional sample plan for practicing document reading.,10,1,[],[],ok
+plan2-0002,plan2,,,,GreenCart Retail Pvt. Ltd.: Business Plan 2026-2028,All names and numbers are invented.,6,1,[],[],ok
+plan2-0003,plan2,,,,1. Overview,GreenCart Retail runs 22 grocery stores across Gujarat and Rajasthan.,10,1,[],[],ok
+plan2-0004,plan2,,,,1. Overview,In 2025 the company recorded sales of Rs. 118 crore and a net margin of 3.4%.,16,1,['3.4%'],['Rs. 118 crore'],ok
+plan2-0005,plan2,,,,1. Overview,The management plans to open 12 new stores by the end of 2027.,13,1,[],[],ok
+plan2-0006,plan2,,,,1. Overview,The company opened four stores last year.,7,1,[],[],ok
+plan2-0007,plan2,,,,2.1 Currency and imports,About 18% of our packaged goods are imported.,8,1,['18%'],[],ok
+plan2-0008,plan2,,,,2.1 Currency and imports,We assume the exchange rate will remain close to INR 83 per USD during the planning period.,17,1,[],['INR 83'],ok
+plan2-0009,plan2,,,,2.1 Currency and imports,A move above INR 88 per USD would raise import costs by roughly 6%.,14,1,['6%'],['INR 88'],ok
+plan2-0010,plan2,,,,2.1 Currency and imports,Management discussed hedging options yesterday.,5,1,[],[],ok
+plan2-0011,plan2,,,,2.2 Fuel and logistics,"Delivery vans use diesel, and transport is 11% of operating cost.",11,1,['11%'],[],ok
+plan2-0012,plan2,,,,2.2 Fuel and logistics,We expect diesel prices to stay below Rs. 95 per litre throughout 2026.,13,1,[],['Rs. 95'],ok
+plan2-0013,plan2,,,,2.2 Fuel and logistics,The company does not currently hedge fuel costs.,8,1,[],[],ok
+plan2-0014,plan2,,,,2.2 Fuel and logistics,Supplier contracts are renewed every March.,6,1,[],[],ok
+plan2-0015,plan2,,,,2.3 Demand,Household spending on groceries is expected to grow by 8% next year.,12,1,['8%'],[],ok
+plan2-0016,plan2,,,,2.3 Demand,We assume customer footfall will rise by 5% per year in existing stores.,13,2,['5%'],[],ok
+plan2-0017,plan2,,,,2.3 Demand,Online orders are projected to reach 15% of sales by 2028.,11,1,['15%'],[],ok
+plan2-0018,plan2,,,,2.3 Demand,"The company serves about 40,000 customers each month.",8,1,[],[],ok
+plan2-0019,plan2,,,,2.4 Interest rates and labor,"The proposed term loan carries an interest rate of 10.2%, and we do not expect it to change by more than 1 percentage point.",24,1,['10.2%'],[],ok
+plan2-0020,plan2,,,,2.4 Interest rates and labor,Store staff wages are assumed to rise by 7% per year.,11,1,['7%'],[],ok
+plan2-0021,plan2,,,,2.4 Interest rates and labor,The company employs 640 people.,5,1,[],[],ok
+plan2-0022,plan2,,,,3. Financial summary,The table below shows the base-case projection in Rs. crore.,10,1,[],[],ok
+plan2-0023,plan2,,,,3. Financial summary,We assume freight and store rents will rise by 5% per year.,12,1,['5%'],[],ok
+plan2-0024,plan2,,,,3. Financial summary,We expect regulatory changes on food labeling to have only a minor effect before 2028.,15,1,[],[],ok
+plan2-0025,plan2,,,,3. Financial summary,Sales are projected to reach Rs. 170 crore by 2028.,10,1,[],['Rs. 170 crore'],ok
+plan2-0026,plan2,,,,4. Risks,The largest risk is a sharp rise in import costs.,10,1,[],[],ok
+plan2-0027,plan2,,,,4. Risks,A second risk is the loss of a key supplier.,10,1,[],[],ok
+plan2-0028,plan2,,,,4. Risks,Management reviews the plan every quarter.,6,1,[],[],ok

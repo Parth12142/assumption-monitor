@@ -6,8 +6,8 @@ import pandas as pd
 
 # ---------- 1. Read pages ----------
 def load_pages(path):
-    import fitz
-    doc = fitz.open(path)
+    import pymupdf
+    doc = pymupdf.open(path)
     return [page.get_text() for page in doc]
 
 # ---------- 2. Find header/footer lines ----------

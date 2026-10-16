@@ -1,0 +1,40 @@
+sentence_id,doc_id,page_start,page_end,pages,section,sentence,n_words,n_occurrences,percents,money,extraction_status
+plan1-0001,plan1,1,1,1,(start),NorthStar Freight Pvt. Ltd. Business Plan 2026-2029 This document is a fictional sample plan created for practicing text extraction and assumption detection.,22,1,[],[],ok
+plan1-0002,plan1,1,1,1,(start),All names and numbers are invented.,6,1,[],[],ok
+plan1-0003,plan1,2,2,2,1. Executive Summary,NorthStar Freight is a regional road-freight company operating 48 trucks across Gujarat and Maharashtra.,14,1,[],[],ok
+plan1-0004,plan1,2,2,2,1. Executive Summary,In 2025 the company earned revenue of Rs. 42.5 crore and an operating margin of 9.2%.,16,1,['9.2%'],['Rs. 42.5 crore'],ok
+plan1-0005,plan1,2,2,2,1. Executive Summary,The management plans to expand the fleet to 90 trucks by the end of 2028.,15,1,[],[],ok
+plan1-0006,plan1,2,2,2,1. Executive Summary,The plan rests on a small number of key assumptions.,10,1,[],[],ok
+plan1-0007,plan1,2,2,2,1. Executive Summary,We assume that the average diesel price will stay at or below Rs. 92 per litre throughout the plan period.,20,1,[],['Rs. 92'],ok
+plan1-0008,plan1,2,2,2,1. Executive Summary,We expect the global crude oil price to remain between USD 65 and USD 80 per barrel.,17,1,[],"['USD 65', 'USD 80']",ok
+plan1-0009,plan1,2,2,2,1. Executive Summary,We also assume that freight demand in our corridors will grow by 8% per year.,15,1,['8%'],[],ok
+plan1-0010,plan1,2,2,2,1. Executive Summary,"If these assumptions hold, revenue is projected to reach Rs. 96 crore by 2029.",14,1,[],['Rs. 96 crore'],ok
+plan1-0011,plan1,2,2,2,1. Executive Summary,The company will seek Rs. 15 crore in funding to buy 30 new trucks and two warehouse sites.,18,1,[],['Rs. 15 crore'],ok
+plan1-0012,plan1,2,2,2,1. Executive Summary,Our largest customers are three FMCG distributors who together contribute 55% of revenue.,13,1,['55%'],[],ok
+plan1-0013,plan1,2,2,2,1. Executive Summary,The head office is located in Ahmedabad.,7,1,[],[],ok
+plan1-0014,plan1,3,3,3,2.1 Fuel and operating costs,"Fuel accounts for roughly 38% of our operating cost, so fuel price is the single most important cost driver.",19,1,['38%'],[],ok
+plan1-0015,plan1,3,3,3,2.1 Fuel and operating costs,Management believes that crude oil will trade near USD 72 per barrel on average during 2026.,16,1,[],['USD 72'],ok
+plan1-0016,plan1,3,3,3,2.1 Fuel and operating costs,Prices above USD 90 per barrel would reduce the operating margin by about 3 percentage points.,16,1,[],['USD 90'],ok
+plan1-0017,plan1,3,3,3,2.1 Fuel and operating costs,Driver wages are expected to rise by 6% per year.,10,1,['6%'],[],ok
+plan1-0018,plan1,3,3,3,2.1 Fuel and operating costs,Tyre and maintenance costs are assumed to increase by 4% per year.,12,1,['4%'],[],ok
+plan1-0019,plan1,3,3,3,2.1 Fuel and operating costs,The company does not currently hedge fuel costs.,8,1,[],[],ok
+plan1-0020,plan1,3,3,3,2.2 Demand,The Indian road-freight market is projected to grow at around 7% annually over the next five years.,17,1,['7%'],[],ok
+plan1-0021,plan1,3,3,3,2.2 Demand,We assume our own volumes will grow slightly faster than the market because of two new warehouse-linked contracts.,18,1,[],[],ok
+plan1-0022,plan1,3,3,3,2.2 Demand,Customer churn is assumed to stay below 5% per year.,10,1,['5%'],[],ok
+plan1-0023,plan1,3,3,3,2.2 Demand,"Competition in the region is fragmented, with more than 200 small operators.",12,1,[],[],ok
+plan1-0024,plan1,3,3,3,2.2 Demand,No single competitor holds more than 4% market share.,9,1,['4%'],[],ok
+plan1-0025,plan1,4,4,4,3. Financial Projections,The table below summarises the base-case projections.,7,1,[],[],ok
+plan1-0026,plan1,4,4,4,3. Financial Projections,All figures are in Rs. crore unless stated otherwise.,9,1,[],[],ok
+plan1-0027,plan1,4,4,4,3. Financial Projections,Revenue growth in the base case is driven by the 8% annual demand growth assumption and by the fleet expansion.,20,1,['8%'],[],ok
+plan1-0028,plan1,4,4,4,3. Financial Projections,We assume an average fleet utilisation of 82% in every year.,11,1,['82%'],[],ok
+plan1-0029,plan1,4,4,4,3. Financial Projections,"Freight rates are expected to rise by 5% per year, in line with inflation.",14,1,['5%'],[],ok
+plan1-0030,plan1,4,4,4,3. Financial Projections,"The interest rate on the proposed term loan is assumed to be 10.5%, and we do not expect it to change by more than 1 percentage point during the loan period.",31,1,['10.5%'],[],ok
+plan1-0031,plan1,4,4,4,3. Financial Projections,The rupee is assumed to trade at about Rs. 84 per US dollar.,13,1,[],['Rs. 84'],ok
+plan1-0032,plan1,5,5,5,4. Risks and Sensitivities,The main risk to the plan is a sustained rise in fuel prices.,13,1,[],[],ok
+plan1-0033,plan1,5,5,5,4. Risks and Sensitivities,"In a downside scenario where crude oil averages USD 95 per barrel, we estimate that the 2027 operating margin would fall from 10.9% to about 7%.",26,1,"['10.9%', '7%']",['USD 95'],ok
+plan1-0034,plan1,5,5,5,4. Risks and Sensitivities,A second risk is the loss of one of the three anchor customers.,13,1,[],[],ok
+plan1-0035,plan1,5,5,5,4. Risks and Sensitivities,The board reviews the plan every six months.,8,1,[],[],ok
+plan1-0036,plan1,5,5,5,4. Risks and Sensitivities,Management will revisit the funding request if diesel prices exceed Rs. 100 per litre for more than one quarter.,19,1,[],['Rs. 100'],ok
+plan1-0037,plan1,5,5,5,4. Risks and Sensitivities,The company expects regulatory changes on emission norms to have only a minor impact before 2028.,16,1,[],[],ok
+plan1-0038,plan1,5,5,5,4. Risks and Sensitivities,The founders hold 70% of the equity.,7,1,['70%'],[],ok
+plan1-0039,plan1,5,5,5,4. Risks and Sensitivities,Contact details for investors are available on request.,8,1,[],[],ok
