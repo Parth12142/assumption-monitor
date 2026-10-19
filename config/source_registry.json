@@ -16,7 +16,10 @@
     "approved": "yes",
     "terms_checked_on": "2026-10-16",
     "permitted_use": "Internal research and model development. Check the FRED and source terms before sharing data outside your organization.",
-    "notes": "Missing values are written as a dot in the CSV."
+    "notes": "Missing values are written as a dot in the CSV.",
+    "update_weekday": 2,
+    "min_lag_days": 2,
+    "revision_note": "FRED serves the latest revised values, so historical tests use revised data, not the values known at the time."
   },
   {
     "series_id": "DEXINUS",
@@ -35,6 +38,9 @@
     "approved": "yes",
     "terms_checked_on": "2026-10-16",
     "permitted_use": "Internal research and model development. Check the FRED and source terms before sharing data outside your organization.",
-    "notes": "Noon buying rates in New York City for cable transfers payable in foreign currencies. A higher value means a weaker rupee."
+    "notes": "Noon buying rates in New York City for cable transfers payable in foreign currencies. A higher value means a weaker rupee.",
+    "update_weekday": 0,
+    "min_lag_days": 3,
+    "revision_note": "FRED serves the latest revised values, so historical tests use revised data, not the values known at the time."
   }
 ]
