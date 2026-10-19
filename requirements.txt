@@ -137,3 +137,6 @@ websocket-client==1.9.2
 widgetsnbextension==4.0.16
 xxhash==4.0.1
 yarl==1.25.1
+psycopg==3.3.6
+psycopg-binary==3.3.6
+SQLAlchemy==2.1.5
