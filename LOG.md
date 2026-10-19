@@ -6,3 +6,4 @@
 - Regression practice: benchmarked this PC and compared polynomial (degree 1-4) and power-law models to predict time and memory for bigger jobs. Lesson: high-degree polynomials overfit and extrapolate badly.
 - Day 6: weekly cleaning (Friday weeks, fill <=2 weeks, robust-z outlier flags, available_at from publication rules), 52 tests. Problem hit: [write one]
 - Day 7 continued: PostgreSQL/SQLAlchemy connection tests; required tables verified; read-only query protection rejects DELETE, UPDATE, and INSERT; 68 tests passing.
+- Day 7: moved storage to PostgreSQL with SQLAlchemy and psycopg; read-only queries; credentials in .env; 69 tests. Loaded 2 documents, 67 sentences, 2 series, 4934 weekly rows.

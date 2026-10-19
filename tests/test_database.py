@@ -219,3 +219,7 @@ def test_insert_query_is_rejected():
         database.run_query(
             "INSERT INTO series (series_id) VALUES ('TEST')"
         )
+def test_a_write_hidden_inside_a_select_is_blocked():
+    sql = "WITH x AS (DELETE FROM sentences WHERE false RETURNING *) SELECT * FROM x"
+    with pytest.raises(database.DatabaseError):
+        database.run_query(sql)
