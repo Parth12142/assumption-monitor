@@ -1,0 +1,4 @@
+EDGAR-CORPUS, yearly zip files
+Source: https://zenodo.org/records/5528490 (license: CC BY 4.0)
+File used: 2019.zip, md5 fe3a88a6d4af7375fb2a5cc9508263ad
+Citation: Loukas, Fergadiotis, Androutsopoulos, Malakasiotis (2021). EDGAR-CORPUS: Billions of Tokens Make The World Go Round. ECONLP workshop.
