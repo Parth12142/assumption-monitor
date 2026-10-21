@@ -1,0 +1,1001 @@
+sentence_id,doc_id,is_assumption,topic,labeler,label_version,review_status,is_synthetic,confidence,reason
+1693577_2019-00739,1693577_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1549848_2019-00289,1549848_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1296435_2019-00061,1296435_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1296435_2019-00346,1296435_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1502292_2019-00096,1502292_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1034670_2019-00256,1034670_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1044777_2019-00503,1044777_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+37996_2019-00844,37996_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1050606_2019-00242,1050606_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1283140_2019-00644,1283140_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1379785_2019-00065,1379785_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1630113_2019-00479,1630113_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1502292_2019-00810,1502292_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+862651_2019-00362,862651_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1434418_2019-00693,1434418_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+73020_2019-00905,73020_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1138639_2019-00989,1138639_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1034670_2019-00184,1034670_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1644963_2019-00714,1644963_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1050606_2019-00675,1050606_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1723187_2019-00075,1723187_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1788028_2019-00481,1788028_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+820318_2019-00137,820318_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+744218_2019-00669,744218_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1711269_2019-00008,1711269_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1315255_2019-00319,1315255_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+876437_2019-00368,876437_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1598674_2019-00163,1598674_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1648087_2019-00487,1648087_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1711269_2019-00098,1711269_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1288469_2019-00296,1288469_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1726548_2019-00130,1726548_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+949858_2019-00559,949858_2019,1,regulation,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1296435_2019-00166,1296435_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1044378_2019-00485,1044378_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1649904_2019-01307,1649904_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1364742_2019-00714,1364742_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1288469_2019-00947,1288469_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1648087_2019-00486,1648087_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1496264_2019-00395,1496264_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013606_2019-00037,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1561387_2019-00068,1561387_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+897078_2019-00083,897078_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+789570_2019-00385,789570_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1726548_2019-00728,1726548_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1013237_2019-00026,1013237_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+820318_2019-00556,820318_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1308027_2019-00291,1308027_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1561387_2019-00335,1561387_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+891014_2019-00622,891014_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1278021_2019-00444,1278021_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1525287_2019-00858,1525287_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1628908_2019-00646,1628908_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1494891_2019-00568,1494891_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1278021_2019-00280,1278021_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+916540_2019-00789,916540_2019,1,regulation,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+844059_2019-00116,844059_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1436208_2019-00123,1436208_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1325702_2019-00748,1325702_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1704711_2019-01187,1704711_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1127371_2019-00050,1127371_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+744218_2019-00695,744218_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1520048_2019-00633,1520048_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1790625_2019-00467,1790625_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+943861_2019-00450,943861_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+885725_2019-00789,885725_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+724004_2019-00280,724004_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1474098_2019-00162,1474098_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1598674_2019-01079,1598674_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1726548_2019-00098,1726548_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1505497_2019-00916,1505497_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1034670_2019-00510,1034670_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1442626_2019-00029,1442626_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1628908_2019-00461,1628908_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1528930_2019-00334,1528930_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+728387_2019-00930,728387_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1018963_2019-00574,1018963_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1505497_2019-00125,1505497_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1018963_2019-00304,1018963_2019,1,supplier,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+885639_2019-00263,885639_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+885725_2019-00024,885725_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+750004_2019-00134,750004_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1542447_2019-00751,1542447_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1561387_2019-00061,1561387_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+885725_2019-00658,885725_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1675644_2019-00210,1675644_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1682325_2019-00151,1682325_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1287865_2019-00787,1287865_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+92108_2019-00427,92108_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+744218_2019-00035,744218_2019,1,regulation,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+894871_2019-00198,894871_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+107815_2019-00262,107815_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1354327_2019-00514,1354327_2019,1,labor,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+92108_2019-00133,92108_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1592386_2019-00502,1592386_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1416265_2019-00179,1416265_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+18172_2019-00196,18172_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1296435_2019-00553,1296435_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+894081_2019-01016,894081_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+916540_2019-00661,916540_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1674416_2019-00231,1674416_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1436208_2019-00334,1436208_2019,1,demand,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1422183_2019-00610,1422183_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1095130_2019-00146,1095130_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+727538_2019-00024,727538_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-00670,1393818_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+37996_2019-00259,37996_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1013606_2019-00256,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1487198_2019-00586,1487198_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1285543_2019-00285,1285543_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1287865_2019-00189,1287865_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1044777_2019-00497,1044777_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1615222_2019-00375,1615222_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1273931_2019-00429,1273931_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+880242_2019-00415,880242_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1644963_2019-00971,1644963_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1704711_2019-00883,1704711_2019,1,regulation,rules_v1,v1,auto,False,0.90,explicit assumption wording
+1693577_2019-00088,1693577_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1351051_2019-01344,1351051_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+873799_2019-00556,873799_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1050606_2019-00595,1050606_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1061630_2019-00955,1061630_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-00477,1393818_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1675644_2019-00994,1675644_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1649904_2019-00112,1649904_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-00154,1744894_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1196501_2019-00344,1196501_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+891014_2019-00497,891014_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1788028_2019-00672,1788028_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1001902_2019-00564,1001902_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1133421_2019-00553,1133421_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1434418_2019-00213,1434418_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1778805_2019-00035,1778805_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1790625_2019-00361,1790625_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1757932_2019-00696,1757932_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1528930_2019-00269,1528930_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+894081_2019-00541,894081_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1502557_2019-00292,1502557_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1726548_2019-00262,1726548_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+744218_2019-00194,744218_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1628908_2019-00247,1628908_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1693577_2019-00767,1693577_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+728387_2019-00792,728387_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1013606_2019-00030,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+92108_2019-00456,92108_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1288469_2019-00359,1288469_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1061630_2019-00214,1061630_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1520262_2019-00322,1520262_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1525287_2019-00335,1525287_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1520048_2019-00337,1520048_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1494891_2019-00618,1494891_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1711929_2019-00055,1711929_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1393818_2019-01395,1393818_2019,1,regulation,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1050606_2019-00247,1050606_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+714395_2019-00390,714395_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+814453_2019-00368,814453_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1042046_2019-00865,1042046_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1005409_2019-00634,1005409_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1158463_2019-00151,1158463_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+880242_2019-00155,880242_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1325702_2019-00924,1325702_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+814453_2019-00648,814453_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+37996_2019-00916,37996_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1044777_2019-00630,1044777_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-01507,1393818_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1682325_2019-00449,1682325_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+37996_2019-00911,37996_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1278021_2019-00580,1278021_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1628908_2019-00886,1628908_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1598674_2019-00440,1598674_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1347652_2019-00918,1347652_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+1371571_2019-00200,1371571_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+728387_2019-00458,728387_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1364742_2019-00984,1364742_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1308027_2019-00172,1308027_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1377121_2019-00301,1377121_2019,0,,rules_v1,v1,auto,False,0.80,the company's own plan
+1044378_2019-01386,1044378_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+92108_2019-00462,92108_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1351051_2019-00445,1351051_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1393818_2019-00545,1393818_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1351051_2019-01351,1351051_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1502557_2019-00013,1502557_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+789570_2019-00312,789570_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+19411_2019-00211,19411_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1520048_2019-00319,1520048_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1711929_2019-00168,1711929_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1086082_2019-00069,1086082_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+943861_2019-00433,943861_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+908311_2019-00847,908311_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1278021_2019-00866,1278021_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1675644_2019-00773,1675644_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1790625_2019-00322,1790625_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1704711_2019-00369,1704711_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1422183_2019-00090,1422183_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1005409_2019-00090,1005409_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013880_2019-00258,1013880_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+18172_2019-00061,18172_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1682325_2019-00047,1682325_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1018963_2019-00072,1018963_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1050606_2019-00677,1050606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1406666_2019-00860,1406666_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1325702_2019-00607,1325702_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1551906_2019-00045,1551906_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1283140_2019-00551,1283140_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1648087_2019-00040,1648087_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+814453_2019-00276,814453_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1505732_2019-00465,1505732_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1081745_2019-00405,1081745_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1158463_2019-00263,1158463_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1549848_2019-00159,1549848_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1682745_2019-00871,1682745_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1377121_2019-00974,1377121_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+724910_2019-00238,724910_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1023994_2019-00061,1023994_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1096934_2019-00159,1096934_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1644963_2019-00176,1644963_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1561387_2019-00513,1561387_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1351051_2019-00443,1351051_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1351051_2019-00791,1351051_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1634432_2019-00373,1634432_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1642380_2019-00397,1642380_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1364742_2019-00306,1364742_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1649904_2019-00098,1649904_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+916540_2019-00862,916540_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-00940,1744894_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1351051_2019-00821,1351051_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1288469_2019-01008,1288469_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+19411_2019-00514,19411_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+750004_2019-00750,750004_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+96271_2019-00485,96271_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1629606_2019-00129,1629606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1288469_2019-00659,1288469_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1018963_2019-00479,1018963_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+1008653_2019-00138,1008653_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1707502_2019-01133,1707502_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1351051_2019-00706,1351051_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1008653_2019-00112,1008653_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+724004_2019-00172,724004_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1422183_2019-00830,1422183_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+820318_2019-00283,820318_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1347652_2019-00123,1347652_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1364742_2019-00840,1364742_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1044378_2019-00059,1044378_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1278021_2019-00751,1278021_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+744218_2019-00273,744218_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1005409_2019-00497,1005409_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1528930_2019-00766,1528930_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1630113_2019-00600,1630113_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1377121_2019-00065,1377121_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1127371_2019-00507,1127371_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1704711_2019-00061,1704711_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1278021_2019-00321,1278021_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1592386_2019-00139,1592386_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1006028_2019-00571,1006028_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1681169_2019-00371,1681169_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+1434418_2019-00640,1434418_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1502292_2019-00504,1502292_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1158463_2019-00666,1158463_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1351051_2019-00819,1351051_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1674416_2019-00116,1674416_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1788028_2019-00418,1788028_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1628908_2019-00042,1628908_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1379785_2019-00677,1379785_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1503658_2019-00036,1503658_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1138639_2019-00960,1138639_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1351051_2019-00593,1351051_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1642380_2019-00155,1642380_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1528930_2019-00139,1528930_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1707502_2019-00776,1707502_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+73020_2019-00755,73020_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+714395_2019-00332,714395_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1278021_2019-00365,1278021_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1218683_2019-00648,1218683_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+714395_2019-00317,714395_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1711929_2019-01374,1711929_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1630113_2019-00166,1630113_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+750004_2019-00691,750004_2019,1,currency,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+915779_2019-00278,915779_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1042046_2019-00082,1042046_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1365916_2019-00110,1365916_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1437107_2019-00149,1437107_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-00204,1744894_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1788028_2019-00659,1788028_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1615222_2019-00503,1615222_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+96271_2019-00581,96271_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1285543_2019-00164,1285543_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1707502_2019-01170,1707502_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1413837_2019-00021,1413837_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+73020_2019-00037,73020_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+82020_2019-00190,82020_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+873799_2019-00216,873799_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1628908_2019-00776,1628908_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1393818_2019-00118,1393818_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1549848_2019-00617,1549848_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+943861_2019-00275,943861_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1549848_2019-00124,1549848_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1649904_2019-01343,1649904_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1038357_2019-00145,1038357_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1598674_2019-01389,1598674_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1593936_2019-00404,1593936_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1158463_2019-00829,1158463_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1044378_2019-01364,1044378_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1520048_2019-00399,1520048_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+96271_2019-00548,96271_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+814453_2019-00782,814453_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+96271_2019-00466,96271_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1006028_2019-00258,1006028_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1593936_2019-00417,1593936_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+908311_2019-00006,908311_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+916540_2019-00886,916540_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-00294,1744894_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+885725_2019-00367,885725_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1487198_2019-00391,1487198_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1128383_2019-00032,1128383_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1674416_2019-01544,1674416_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1422183_2019-00944,1422183_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1675644_2019-00334,1675644_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+73020_2019-00792,73020_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+96271_2019-00351,96271_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1505497_2019-00329,1505497_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+933141_2019-00987,933141_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1061630_2019-00055,1061630_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1044378_2019-00913,1044378_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1505497_2019-00068,1505497_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1704711_2019-00362,1704711_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1138639_2019-00267,1138639_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+92108_2019-00281,92108_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+885725_2019-00152,885725_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1005409_2019-00163,1005409_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+18172_2019-00199,18172_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1273931_2019-00249,1273931_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1641601_2019-00702,1641601_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+880242_2019-00249,880242_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1273931_2019-00724,1273931_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1436208_2019-00456,1436208_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1614806_2019-00501,1614806_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1434418_2019-00535,1434418_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+73020_2019-00114,73020_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1436208_2019-00384,1436208_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+750004_2019-00112,750004_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1436208_2019-00441,1436208_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1285543_2019-00009,1285543_2019,0,,rules_v1,v1,auto,False,0.80,the company's own plan
+1442999_2019-00087,1442999_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1674416_2019-01897,1674416_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+1325702_2019-00348,1325702_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1772177_2019-00640,1772177_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1042046_2019-00205,1042046_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1050606_2019-00621,1050606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1707502_2019-01271,1707502_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1042046_2019-00435,1042046_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1050743_2019-00614,1050743_2019,1,rates,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1502292_2019-00531,1502292_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1704711_2019-00578,1704711_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1788028_2019-00287,1788028_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1365916_2019-00897,1365916_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+92108_2019-00524,92108_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+96271_2019-00169,96271_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1296435_2019-00080,1296435_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1549848_2019-00349,1549848_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1377121_2019-00836,1377121_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1354327_2019-00400,1354327_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1008653_2019-00301,1008653_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1377121_2019-00581,1377121_2019,1,supplier,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1434418_2019-01257,1434418_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1013606_2019-00894,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1406666_2019-00026,1406666_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1528930_2019-00107,1528930_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1288469_2019-00252,1288469_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1061630_2019-00371,1061630_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1050606_2019-00895,1050606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1542447_2019-00970,1542447_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1061630_2019-00075,1061630_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1711269_2019-00336,1711269_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1788028_2019-00502,1788028_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1768012_2019-00554,1768012_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1095130_2019-00522,1095130_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1434418_2019-01281,1434418_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+916540_2019-00642,916540_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+949858_2019-00838,949858_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1598674_2019-00398,1598674_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1778805_2019-00488,1778805_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+724910_2019-00263,724910_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1682325_2019-00434,1682325_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+916540_2019-00094,916540_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+789570_2019-00257,789570_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1325702_2019-00104,1325702_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1707502_2019-00827,1707502_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1474098_2019-00607,1474098_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1127371_2019-00814,1127371_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+1413837_2019-00586,1413837_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1642380_2019-00331,1642380_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+849146_2019-00766,849146_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1638287_2019-00684,1638287_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1628908_2019-00465,1628908_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1063104_2019-00330,1063104_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1474098_2019-00696,1474098_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1218683_2019-00741,1218683_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1675644_2019-00651,1675644_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1278021_2019-00108,1278021_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-01489,1393818_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013606_2019-00088,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1050606_2019-00664,1050606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+19411_2019-00356,19411_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1371571_2019-00353,1371571_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013237_2019-00565,1013237_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1061630_2019-00730,1061630_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1542447_2019-01197,1542447_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-00251,1393818_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1364742_2019-00927,1364742_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1133421_2019-00511,1133421_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1525287_2019-00739,1525287_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1013606_2019-00368,1013606_2019,1,regulation,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1081745_2019-00384,1081745_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1474098_2019-00019,1474098_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+915779_2019-00511,915779_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1592386_2019-01003,1592386_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1050743_2019-00588,1050743_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1711929_2019-01170,1711929_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+943861_2019-00393,943861_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1061630_2019-00738,1061630_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+891014_2019-00253,891014_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-01414,1744894_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+37996_2019-00258,37996_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1325702_2019-00192,1325702_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+744218_2019-00420,744218_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+894081_2019-00429,894081_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+849146_2019-00448,849146_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1711929_2019-00385,1711929_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1649904_2019-01469,1649904_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+750004_2019-00978,750004_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+37996_2019-00785,37996_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1704711_2019-01003,1704711_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1371571_2019-00466,1371571_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1682325_2019-00650,1682325_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1693577_2019-00890,1693577_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1502557_2019-00350,1502557_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1050606_2019-00128,1050606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1561387_2019-00622,1561387_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1634432_2019-00949,1634432_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1018963_2019-00489,1018963_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1528930_2019-00676,1528930_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+750004_2019-00236,750004_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1693577_2019-00061,1693577_2019,1,demand,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1630113_2019-00668,1630113_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1379785_2019-00973,1379785_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1790625_2019-00697,1790625_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1434418_2019-01751,1434418_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1615222_2019-00157,1615222_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1364742_2019-01021,1364742_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1735041_2019-00071,1735041_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1006028_2019-00589,1006028_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+92108_2019-00325,92108_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+880242_2019-00635,880242_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1675644_2019-01006,1675644_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+73020_2019-01099,73020_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1273931_2019-00740,1273931_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1520048_2019-00027,1520048_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1447669_2019-01162,1447669_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+744825_2019-00180,744825_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+844059_2019-00021,844059_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1505732_2019-00132,1505732_2019,0,,rules_v1,v1,auto,False,0.90,"assumed liabilities or contracts (accounting, not an outlook)"
+727538_2019-00147,727538_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1061630_2019-01054,1061630_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1413837_2019-00335,1413837_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1068875_2019-00528,1068875_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1042046_2019-00074,1042046_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1674416_2019-01190,1674416_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1752039_2019-00546,1752039_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+61339_2019-00100,61339_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1502292_2019-00740,1502292_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+744218_2019-00134,744218_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1649904_2019-01531,1649904_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1038357_2019-00207,1038357_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1528930_2019-00027,1528930_2019,1,regulation,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1379785_2019-00539,1379785_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+943861_2019-00134,943861_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1641601_2019-00601,1641601_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1614806_2019-00071,1614806_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1502377_2019-00097,1502377_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1525287_2019-00316,1525287_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-01468,1744894_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1704711_2019-01054,1704711_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1638287_2019-00492,1638287_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1042046_2019-00750,1042046_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1699018_2019-00557,1699018_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1273931_2019-00696,1273931_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+849146_2019-00419,849146_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1505497_2019-00677,1505497_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+789570_2019-00230,789570_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1068875_2019-00821,1068875_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+862651_2019-00117,862651_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1707502_2019-00280,1707502_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1745916_2019-00082,1745916_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1365916_2019-00450,1365916_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1050606_2019-00085,1050606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1278021_2019-00884,1278021_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1347652_2019-00315,1347652_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1785424_2019-00117,1785424_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1561387_2019-00107,1561387_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-00521,1744894_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1648087_2019-00538,1648087_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+855683_2019-00330,855683_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1273931_2019-00315,1273931_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1013880_2019-00160,1013880_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1287865_2019-00570,1287865_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1502292_2019-00293,1502292_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1174891_2019-00061,1174891_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1005409_2019-00763,1005409_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1459417_2019-00860,1459417_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1745916_2019-00646,1745916_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1778805_2019-00330,1778805_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1416265_2019-00573,1416265_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1416265_2019-00102,1416265_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1502292_2019-00521,1502292_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1068875_2019-00766,1068875_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1630113_2019-00004,1630113_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1561387_2019-00192,1561387_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1417398_2019-00068,1417398_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1437107_2019-00561,1437107_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1505497_2019-00495,1505497_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1629606_2019-00060,1629606_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1379785_2019-00503,1379785_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+949858_2019-00959,949858_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1635136_2019-00060,1635136_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+73020_2019-00897,73020_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1649904_2019-00359,1649904_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1315255_2019-00525,1315255_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1790625_2019-00170,1790625_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1018963_2019-00318,1018963_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1629606_2019-00272,1629606_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1006028_2019-00568,1006028_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1785424_2019-00128,1785424_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1434418_2019-00259,1434418_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1638287_2019-00100,1638287_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1744894_2019-01435,1744894_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1315255_2019-00718,1315255_2019,0,,rules_v1,v1,auto,False,0.90,"assumed liabilities or contracts (accounting, not an outlook)"
+1351901_2019-00028,1351901_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1711929_2019-00103,1711929_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1693577_2019-00694,1693577_2019,,,rules_v1,v1,needs_review,False,0.70,"explicit assumption wording, topic unclear"
+19411_2019-00362,19411_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1561387_2019-00086,1561387_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+92108_2019-00393,92108_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1745916_2019-00796,1745916_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1377121_2019-00972,1377121_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1273931_2019-00158,1273931_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+19411_2019-00315,19411_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1354327_2019-00458,1354327_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+96271_2019-00709,96271_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1744894_2019-01034,1744894_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1422183_2019-00932,1422183_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1133421_2019-00525,1133421_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+1447669_2019-00903,1447669_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1459417_2019-00638,1459417_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1502557_2019-00324,1502557_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1347652_2019-00125,1347652_2019,0,,rules_v1,v1,auto,False,0.90,"assumed liabilities or contracts (accounting, not an outlook)"
+803578_2019-00281,803578_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1044378_2019-00060,1044378_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1377121_2019-00699,1377121_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1315255_2019-00655,1315255_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+37996_2019-00079,37996_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1772177_2019-00625,1772177_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-00282,1744894_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+885639_2019-00043,885639_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1642380_2019-00006,1642380_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1138639_2019-00593,1138639_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1649904_2019-01408,1649904_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1682745_2019-00883,1682745_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+885725_2019-00444,885725_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1494891_2019-00400,1494891_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1050743_2019-00419,1050743_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1393818_2019-00001,1393818_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1133421_2019-00499,1133421_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+855683_2019-00189,855683_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1287865_2019-00256,1287865_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+73020_2019-01022,73020_2019,,,rules_v1,v1,needs_review,False,0.70,"explicit assumption wording, topic unclear"
+1641601_2019-00058,1641601_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1699018_2019-00429,1699018_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1044378_2019-00851,1044378_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1325702_2019-00009,1325702_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1752039_2019-00120,1752039_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1788028_2019-00584,1788028_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+27904_2019-00620,27904_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1682745_2019-00246,1682745_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+876437_2019-00652,876437_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013237_2019-00615,1013237_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1365916_2019-00661,1365916_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1735041_2019-00375,1735041_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1502377_2019-00449,1502377_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1634432_2019-00990,1634432_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1704711_2019-00334,1704711_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1614806_2019-00878,1614806_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1635136_2019-00309,1635136_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1389050_2019-00602,1389050_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1044777_2019-00620,1044777_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1628908_2019-00696,1628908_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+1434418_2019-00696,1434418_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1158463_2019-00208,1158463_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1138639_2019-00177,1138639_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+820318_2019-00234,820318_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+933141_2019-00055,933141_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1593936_2019-00021,1593936_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1365916_2019-00417,1365916_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1413837_2019-00506,1413837_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+1018963_2019-00163,1018963_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1704711_2019-00023,1704711_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013606_2019-00318,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1296435_2019-00520,1296435_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+943861_2019-00367,943861_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1530163_2019-00119,1530163_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+728387_2019-00787,728387_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1520262_2019-00374,1520262_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1379785_2019-00929,1379785_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1296435_2019-00150,1296435_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1436208_2019-00333,1436208_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1772177_2019-00272,1772177_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+915779_2019-00493,915779_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+744825_2019-00001,744825_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1788028_2019-00682,1788028_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1417398_2019-00497,1417398_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1285543_2019-00046,1285543_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1502292_2019-00095,1502292_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1561387_2019-00400,1561387_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+744825_2019-00037,744825_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1649904_2019-00121,1649904_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-01089,1393818_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-01174,1744894_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1287865_2019-00726,1287865_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1496264_2019-00466,1496264_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+894871_2019-00554,894871_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1788028_2019-00474,1788028_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1487198_2019-00200,1487198_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1496264_2019-00372,1496264_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1505497_2019-00601,1505497_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1023994_2019-00233,1023994_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1642380_2019-00622,1642380_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1042046_2019-00070,1042046_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1389050_2019-00210,1389050_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1068875_2019-00681,1068875_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1592386_2019-00996,1592386_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1278021_2019-00271,1278021_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1674416_2019-00395,1674416_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+37996_2019-01031,37996_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+880242_2019-00349,880242_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1496264_2019-00349,1496264_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+891014_2019-00527,891014_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+933141_2019-00929,933141_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1325702_2019-00243,1325702_2019,1,supplier,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+916540_2019-00552,916540_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1158463_2019-00946,1158463_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1196501_2019-00227,1196501_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+915779_2019-00344,915779_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1371571_2019-00459,1371571_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1630113_2019-00553,1630113_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+92108_2019-00655,92108_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1044777_2019-00209,1044777_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1649904_2019-01421,1649904_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1542447_2019-00702,1542447_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+750004_2019-01073,750004_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+714395_2019-00301,714395_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1788028_2019-00705,1788028_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1288469_2019-00521,1288469_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1315255_2019-00560,1315255_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1505497_2019-00119,1505497_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1138639_2019-00348,1138639_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1288469_2019-00442,1288469_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1598674_2019-00737,1598674_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1474098_2019-00455,1474098_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1641601_2019-00347,1641601_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+873799_2019-00369,873799_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1273931_2019-00290,1273931_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+107815_2019-00029,107815_2019,1,demand,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1614806_2019-01195,1614806_2019,0,,rules_v1,v1,auto,False,0.80,the company's own plan
+1288469_2019-00548,1288469_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1095130_2019-00017,1095130_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+855683_2019-00091,855683_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1790625_2019-00003,1790625_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+814453_2019-00801,814453_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1008653_2019-00277,1008653_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+61339_2019-00427,61339_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1598674_2019-01133,1598674_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+873799_2019-00470,873799_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1001902_2019-00504,1001902_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1704711_2019-01157,1704711_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1005409_2019-00442,1005409_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1416265_2019-00756,1416265_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1044777_2019-00578,1044777_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1347652_2019-00546,1347652_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1682745_2019-00829,1682745_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1023994_2019-00081,1023994_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+27904_2019-00668,27904_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1063104_2019-00086,1063104_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+894871_2019-00015,894871_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1417398_2019-00609,1417398_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1044777_2019-00751,1044777_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1351901_2019-00188,1351901_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1757932_2019-00439,1757932_2019,0,,rules_v1,v1,auto,False,0.80,the company's own plan
+1377121_2019-00003,1377121_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1542447_2019-00498,1542447_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1642380_2019-00505,1642380_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+73020_2019-00786,73020_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1196501_2019-00165,1196501_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+820318_2019-00376,820318_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1436208_2019-00318,1436208_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+849146_2019-00417,849146_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+894871_2019-00587,894871_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1505497_2019-00617,1505497_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+724004_2019-00523,724004_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+894871_2019-00348,894871_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1283140_2019-00443,1283140_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+949858_2019-00166,949858_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+891014_2019-00119,891014_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1675644_2019-00294,1675644_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+908311_2019-00019,908311_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1218683_2019-00850,1218683_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1542447_2019-00496,1542447_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1648087_2019-00484,1648087_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1505732_2019-00006,1505732_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1744894_2019-00748,1744894_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+876437_2019-00373,876437_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1325702_2019-00085,1325702_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1377121_2019-00660,1377121_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1628908_2019-00894,1628908_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+894081_2019-00935,894081_2019,,,rules_v1,v1,needs_review,False,0.70,"explicit assumption wording, topic unclear"
+820318_2019-00375,820318_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1354327_2019-00210,1354327_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1013606_2019-00262,1013606_2019,0,,rules_v1,v1,auto,False,0.80,the company's own plan
+1768012_2019-00082,1768012_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1711929_2019-00704,1711929_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+855683_2019-00439,855683_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1487198_2019-00399,1487198_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+876437_2019-00602,876437_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1634432_2019-00783,1634432_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1013606_2019-00685,1013606_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+744218_2019-00147,744218_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+849146_2019-00880,849146_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+107815_2019-00556,107815_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1629606_2019-00243,1629606_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+916540_2019-00702,916540_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1503658_2019-00008,1503658_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1068875_2019-00820,1068875_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1648087_2019-00511,1648087_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1005409_2019-00569,1005409_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1561387_2019-00461,1561387_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1034670_2019-00772,1034670_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+891014_2019-00729,891014_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1437107_2019-00118,1437107_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1218683_2019-00216,1218683_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+916540_2019-00410,916540_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+96271_2019-00457,96271_2019,1,rates,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+814453_2019-00414,814453_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1707502_2019-00016,1707502_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1542447_2019-00109,1542447_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013606_2019-00916,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1138639_2019-00287,1138639_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1614806_2019-00985,1614806_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1681169_2019-00145,1681169_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1459417_2019-00488,1459417_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+894081_2019-01012,894081_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1674416_2019-01045,1674416_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1745916_2019-00362,1745916_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1447669_2019-00506,1447669_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+714395_2019-00314,714395_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1790625_2019-00036,1790625_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1629606_2019-00009,1629606_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1406666_2019-00936,1406666_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1050606_2019-00215,1050606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+37996_2019-00806,37996_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1365916_2019-00289,1365916_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+73020_2019-00050,73020_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1133421_2019-00518,1133421_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1371571_2019-00594,1371571_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1768012_2019-00460,1768012_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1634432_2019-00201,1634432_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1628908_2019-00999,1628908_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+18172_2019-00005,18172_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1285543_2019-00064,1285543_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1503658_2019-00200,1503658_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1699018_2019-00011,1699018_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1138639_2019-00799,1138639_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1757932_2019-00455,1757932_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1487198_2019-00123,1487198_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+107815_2019-00676,107815_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1351051_2019-01423,1351051_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1674416_2019-00800,1674416_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1362516_2019-00121,1362516_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1365916_2019-00069,1365916_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+915779_2019-00616,915779_2019,1,regulation,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1218683_2019-01021,1218683_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1044378_2019-00762,1044378_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1038357_2019-00137,1038357_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1693577_2019-00118,1693577_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1629606_2019-00265,1629606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1351051_2019-00558,1351051_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+876437_2019-00618,876437_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+894871_2019-00236,894871_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1681169_2019-00522,1681169_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+107815_2019-00460,107815_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1790625_2019-00081,1790625_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+880242_2019-00108,880242_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1699018_2019-00150,1699018_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+728387_2019-00980,728387_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+855683_2019-00190,855683_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1542447_2019-00492,1542447_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+37996_2019-00779,37996_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1081745_2019-00508,1081745_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1013237_2019-00632,1013237_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1406666_2019-01024,1406666_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+855683_2019-00191,855683_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1308027_2019-00366,1308027_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1273931_2019-00112,1273931_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1707502_2019-00682,1707502_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1377121_2019-00934,1377121_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1711269_2019-00095,1711269_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1095130_2019-00073,1095130_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1681169_2019-00352,1681169_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1042046_2019-00561,1042046_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+949858_2019-00599,949858_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1494891_2019-00132,1494891_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1528930_2019-00094,1528930_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1682745_2019-00798,1682745_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1283140_2019-00574,1283140_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1674416_2019-01268,1674416_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1675644_2019-00782,1675644_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1371571_2019-00328,1371571_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1422183_2019-00312,1422183_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+61339_2019-00329,61339_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1416265_2019-00631,1416265_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1502557_2019-00309,1502557_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1325702_2019-00858,1325702_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1417398_2019-00403,1417398_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1013237_2019-00712,1013237_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1127371_2019-00707,1127371_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1308027_2019-00119,1308027_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+915779_2019-00350,915779_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1614806_2019-00948,1614806_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1598674_2019-01118,1598674_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1561387_2019-00591,1561387_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1496264_2019-00490,1496264_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1013606_2019-00488,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1138639_2019-01038,1138639_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1542447_2019-01115,1542447_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1561387_2019-00162,1561387_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1699018_2019-00143,1699018_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+943861_2019-00341,943861_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1377121_2019-01004,1377121_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+820318_2019-00334,820318_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1389050_2019-00025,1389050_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1422183_2019-00670,1422183_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1693577_2019-00124,1693577_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1649904_2019-00263,1649904_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1417398_2019-00522,1417398_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1447669_2019-00404,1447669_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+891014_2019-00660,891014_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1050606_2019-00894,1050606_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+908311_2019-00009,908311_2019,0,,rules_v1,v1,auto,False,0.80,the company's own plan
+1496264_2019-00630,1496264_2019,,,rules_v1,v1,needs_review,False,0.70,"explicit assumption wording, topic unclear"
+873799_2019-00383,873799_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1494891_2019-00058,1494891_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1422183_2019-00566,1422183_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+728387_2019-00274,728387_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+714395_2019-00380,714395_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-00576,1393818_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1505497_2019-00440,1505497_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1158463_2019-00277,1158463_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1158463_2019-00002,1158463_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1417398_2019-00292,1417398_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1406666_2019-00207,1406666_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+849146_2019-00290,849146_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1437107_2019-00730,1437107_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1437107_2019-00546,1437107_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1377121_2019-00835,1377121_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1693577_2019-00125,1693577_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+949858_2019-00399,949858_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1038357_2019-00156,1038357_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+949858_2019-00617,949858_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+849146_2019-00343,849146_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1699018_2019-00740,1699018_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1674416_2019-01913,1674416_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1592386_2019-00534,1592386_2019,0,,rules_v1,v1,auto,False,0.90,"assumed liabilities or contracts (accounting, not an outlook)"
+1447669_2019-00122,1447669_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+724004_2019-00248,724004_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1379785_2019-00703,1379785_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1436208_2019-00453,1436208_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+894871_2019-00390,894871_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1389050_2019-00169,1389050_2019,1,demand,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1422183_2019-00252,1422183_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1416265_2019-00479,1416265_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1005409_2019-00438,1005409_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+96271_2019-00698,96271_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1642380_2019-00085,1642380_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1752039_2019-00443,1752039_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-00486,1393818_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1013606_2019-00720,1013606_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1354327_2019-00019,1354327_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+728387_2019-00968,728387_2019,0,,rules_v1,v1,auto,False,0.80,the company's own plan
+891014_2019-00330,891014_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1528930_2019-00202,1528930_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1044378_2019-00630,1044378_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1593936_2019-00373,1593936_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+750004_2019-01001,750004_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1416265_2019-00900,1416265_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+724910_2019-00023,724910_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1711269_2019-00386,1711269_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+855683_2019-00461,855683_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1325702_2019-00661,1325702_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+73020_2019-00487,73020_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1434418_2019-01439,1434418_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+744218_2019-00150,744218_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1768012_2019-00307,1768012_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+789570_2019-00193,789570_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+876437_2019-00441,876437_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1287865_2019-00186,1287865_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1354327_2019-00323,1354327_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1528930_2019-00563,1528930_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+92108_2019-00312,92108_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1081745_2019-00136,1081745_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1422183_2019-00848,1422183_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+724004_2019-00500,724004_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1038357_2019-00031,1038357_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1778805_2019-00292,1778805_2019,,,rules_v1,v1,needs_review,False,0.70,"explicit assumption wording, topic unclear"
+933141_2019-00214,933141_2019,1,rates,rules_v1,v1,auto,False,0.85,expectation about an outside driver
+1707502_2019-00946,1707502_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+750004_2019-00614,750004_2019,,,rules_v1,v1,needs_review,False,0.50,valuation inputs: decide by hand
+789570_2019-00695,789570_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1013880_2019-00457,1013880_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1638287_2019-00186,1638287_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+724004_2019-00517,724004_2019,0,,rules_v1,v1,auto,False,0.90,"assumed liabilities or contracts (accounting, not an outlook)"
+1434418_2019-01707,1434418_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1772177_2019-00392,1772177_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1365916_2019-00690,1365916_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1726548_2019-00066,1726548_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+37996_2019-00690,37996_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1598674_2019-00779,1598674_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1371571_2019-00159,1371571_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1693577_2019-00923,1693577_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013880_2019-00058,1013880_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1542447_2019-00169,1542447_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1013606_2019-00092,1013606_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1682325_2019-00588,1682325_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1757932_2019-00330,1757932_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+814453_2019-00753,814453_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1641601_2019-00872,1641601_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1044378_2019-00792,1044378_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1377121_2019-00069,1377121_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1061630_2019-00427,1061630_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1138639_2019-00487,1138639_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1387061_2019-00194,1387061_2019,0,,rules_v1,v1,auto,False,0.90,"assumed liabilities or contracts (accounting, not an outlook)"
+1496264_2019-00355,1496264_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1133421_2019-00448,1133421_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1044378_2019-00114,1044378_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+862651_2019-00221,862651_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+744218_2019-00769,744218_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1413837_2019-00584,1413837_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1417398_2019-00651,1417398_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1542447_2019-01416,1542447_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1354327_2019-00150,1354327_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1634432_2019-00191,1634432_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1707502_2019-00221,1707502_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1707502_2019-00970,1707502_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1682325_2019-00332,1682325_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+820318_2019-00090,820318_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+891014_2019-00728,891014_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+876437_2019-00140,876437_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1704711_2019-01159,1704711_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1634432_2019-00327,1634432_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1649904_2019-02143,1649904_2019,0,,rules_v1,v1,auto,False,0.95,legal boilerplate
+1138639_2019-00423,1138639_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+894081_2019-00443,894081_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1196501_2019-00131,1196501_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1127371_2019-00462,1127371_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1711929_2019-01264,1711929_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+885725_2019-00805,885725_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1474098_2019-00594,1474098_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1416265_2019-00590,1416265_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+744218_2019-00688,744218_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1561387_2019-00111,1561387_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1704711_2019-00970,1704711_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+750004_2019-00026,750004_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1496264_2019-00024,1496264_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+894081_2019-00653,894081_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1351051_2019-01354,1351051_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1005409_2019-00400,1005409_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1042046_2019-00589,1042046_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+37996_2019-00168,37996_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1699018_2019-00440,1699018_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1459417_2019-00603,1459417_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1133421_2019-00249,1133421_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1315255_2019-00724,1315255_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1005409_2019-00060,1005409_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1296435_2019-00612,1296435_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1005409_2019-00023,1005409_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1042046_2019-00615,1042046_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+1351051_2019-00854,1351051_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"
+876437_2019-00297,876437_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1158463_2019-00519,1158463_2019,,,rules_v1,v1,needs_review,False,0.50,mixed signals: decide by hand
+1127371_2019-00892,1127371_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1674416_2019-00728,1674416_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1393818_2019-01441,1393818_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1086082_2019-00064,1086082_2019,0,,rules_v1,v1,auto,False,0.85,no forward-looking wording
+1693577_2019-00732,1693577_2019,0,,rules_v1,v1,auto,False,0.85,"risk or possibility, no stated expectation"

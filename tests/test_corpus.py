@@ -98,3 +98,21 @@ def test_bad_zip_and_existing_output_are_handled(tmp_path, capsys):
     assert corpus.main(args) == 1                     # refuses to overwrite your labeling base
     assert "already exists" in capsys.readouterr().err
     assert corpus.main(args + ["--force"]) == 0
+
+
+def test_excluded_documents_and_sentences_are_left_out(tmp_path):
+    zip_path = make_zip(tmp_path / "2019.zip", n=6)
+    everything, _ = corpus.build_candidates(zip_path, n_filings=6, n_cue=8, n_random=8, max_per_doc=2, seed=3)
+    banned_doc = everything["doc_id"].iloc[0]
+    banned_ids = set(everything["sentence_id"].iloc[1:4])
+
+    table, _ = corpus.build_candidates(zip_path, n_filings=6, n_cue=8, n_random=8, max_per_doc=2, seed=3,
+                                       exclude_docs={banned_doc}, exclude_ids=banned_ids)
+    assert banned_doc not in set(table["doc_id"])
+    assert not (banned_ids & set(table["sentence_id"]))
+
+
+def test_missing_exclude_file_gives_a_clear_error(tmp_path, capsys):
+    good = make_zip(tmp_path / "2019.zip")
+    code = corpus.main(["--zip", str(good), "--out", str(tmp_path / "c.csv"), "--exclude-docs", str(tmp_path / "nope.txt")])
+    assert code == 1 and "exclude file" in capsys.readouterr().err

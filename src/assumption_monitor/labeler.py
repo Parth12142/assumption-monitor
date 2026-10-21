@@ -103,12 +103,14 @@ def ask_topic(input_fn, print_fn):
 
 
 def run_labeler(candidates_path, labels_path, labeler="me", label_version="v1",
-                input_fn=input, print_fn=print):
+                input_fn=input, print_fn=print, only_ids=None):
     candidates = load_candidates(candidates_path)
     labels = load_labels(labels_path)
 
     done = set(labels["sentence_id"])
     queue = [r for r in candidates.to_dict("records") if r["sentence_id"] not in done]
+    if only_ids is not None:                       # label only these sentences (for example the unsure ones)
+        queue = [r for r in queue if r["sentence_id"] in only_ids]
     total = len(candidates)
     print_fn(f"{len(labels)} already labeled, {len(queue)} to go. "
              "Keys: a=assumption  n=not  s=unsure  u=undo  q=quit")
@@ -171,11 +173,16 @@ def main(argv=None):
     parser.add_argument("--labels", default="data/labels/labels.csv")
     parser.add_argument("--labeler", default="me")
     parser.add_argument("--label-version", default="v1")
+    parser.add_argument("--only-unsure-from", help="auto_labels.csv: label only the sentences the rules were unsure about")
     args = parser.parse_args(argv)
 
     try:
         if args.command == "label":
-            run_labeler(args.candidates, args.labels, args.labeler, args.label_version)
+            only_ids = None
+            if args.only_unsure_from:
+                auto = pd.read_csv(args.only_unsure_from, dtype=str).fillna("")
+                only_ids = set(auto.loc[auto["review_status"] == "needs_review", "sentence_id"])
+            run_labeler(args.candidates, args.labels, args.labeler, args.label_version, only_ids=only_ids)
         elif args.command == "status":
             for key, value in status(load_labels(args.labels)).items():
                 print(f"{key}: {value}")

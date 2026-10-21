@@ -8,3 +8,4 @@
 - Day 7 continued: PostgreSQL/SQLAlchemy connection tests; required tables verified; read-only query protection rejects DELETE, UPDATE, and INSERT; 68 tests passing.
 - Day 7: moved storage to PostgreSQL with SQLAlchemy and psycopg; read-only queries; credentials in .env; 69 tests. Loaded 2 documents, 67 sentences, 2 series, 4934 weekly rows.
 - Day 8: labeling guide v1, EDGAR-CORPUS 2019 sample (100 cue + 100 non-cue sentences), terminal labeling tool, first 200 labels, 84 tests. Problem hit: [write one]
+- Day 9: rule-based pre-labeling (rules_v1), frozen test documents, 1000 auto-labeled sentences, audit of 40. Rule changes: [write them]. Audit agreement: [write it]

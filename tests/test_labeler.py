@@ -90,3 +90,11 @@ def test_missing_files_give_clear_errors(tmp_path, capsys):
     assert code == 0                                  # no labels yet is fine
     code = labeler.main(["check", "--candidates", str(tmp_path / "nothing.csv"), "--labels", str(tmp_path / "none.csv")])
     assert code == 1 and "not found" in capsys.readouterr().err
+
+
+def test_only_the_chosen_sentences_are_asked(tmp_path):
+    cand = make_candidates(tmp_path / "cand.csv", 3)
+    script = iter(["n", "q"])
+    out = labeler.run_labeler(cand, tmp_path / "labels.csv", input_fn=lambda p: next(script),
+                              print_fn=lambda *a, **k: None, only_ids={"d1-00002"})
+    assert out["sentence_id"].tolist() == ["d1-00002"]
