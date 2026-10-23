@@ -1,0 +1,34 @@
+{
+  "method": "sigmoid",
+  "dev_sentences": 206,
+  "hand_sentences_evaluated": 166,
+  "uncalibrated_brier_score": 0.2081,
+  "calibrated_brier_score": 0.063,
+  "reliability_curve": [
+    {
+      "predicted": 0.1199,
+      "empirical": 0.0
+    },
+    {
+      "predicted": 0.2539,
+      "empirical": 0.0
+    },
+    {
+      "predicted": 0.5167,
+      "empirical": 0.8696
+    },
+    {
+      "predicted": 0.684,
+      "empirical": 0.9444
+    }
+  ],
+  "thresholds": {
+    "accept": 0.7,
+    "review": 0.4
+  },
+  "routing_summary": {
+    "accept": 8,
+    "review": 33,
+    "ignore": 125
+  }
+}

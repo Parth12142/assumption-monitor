@@ -12,8 +12,9 @@ import joblib
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.calibration import CalibratedClassifierCV, calibration_curve
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import precision_recall_fscore_support
+from sklearn.metrics import brier_score_loss, precision_recall_fscore_support
 from sklearn.model_selection import GroupKFold
 from sklearn.pipeline import Pipeline
 
@@ -25,7 +26,11 @@ CANDIDATES = ["data/labels/candidates.csv", "data/labels/candidates_day9.csv"]
 FROZEN_DOCS = "data/labels/frozen_test_docs.txt"
 DATASET = "data/model_a/dataset.csv"
 MODEL_PATH = "models/model_a_baseline.joblib"
+CALIBRATED_MODEL_PATH = "models/model_a_calibrated.joblib"
 TEST_REPORT = "reports/model_a_test_metrics.json"
+CALIBRATION_REPORT = "reports/model_a_calibration.json"
+ACCEPT_THRESHOLD = 0.70
+REVIEW_THRESHOLD = 0.40
 MIN_HAND_LABELS, MIN_PER_CLASS = 30, 5
 
 
@@ -180,6 +185,80 @@ def top_words(model, k=12):
     return {"assumption": names[order[::-1][:k]].tolist(), "not_assumption": names[order[:k]].tolist()}
 
 
+# ---------- Step 4: Calibration and Thresholds (Day 13) ----------
+def route_sentence(prob: float, accept_threshold: float = ACCEPT_THRESHOLD,
+                   review_threshold: float = REVIEW_THRESHOLD) -> str:
+    """Decide what happens to a sentence based on its calibrated probability."""
+    if prob >= accept_threshold:
+        return "accept"
+    elif prob >= review_threshold:
+        return "review"
+    return "ignore"
+
+
+def calculate_reliability_curve(y_true, y_prob, n_bins: int = 5) -> dict:
+    """Calculate Brier score and reliability curve bins."""
+    y_true = np.asarray(y_true).astype(int)
+    y_prob = np.asarray(y_prob).astype(float)
+    brier = float(brier_score_loss(y_true, y_prob))
+    frac_pos, mean_pred = calibration_curve(y_true, y_prob, n_bins=n_bins, strategy="uniform")
+    curve = []
+    for p, t in zip(mean_pred, frac_pos):
+        curve.append({"predicted": round(float(p), 4), "empirical": round(float(t), 4)})
+    return {
+        "brier_score": round(brier, 4),
+        "reliability_curve": curve,
+    }
+
+
+def calibrate_model(data, use_rule_labels: bool = False, model_path: str = CALIBRATED_MODEL_PATH,
+                    report_path: str = CALIBRATION_REPORT, n_splits: int = 5):
+    """Fit a calibrated model using document-separated splits on dev data and compute reliability."""
+    dev = data[data["split"] == "dev"].reset_index(drop=True)
+    trainable = dev["source"].isin(["hand", "audited"] + (["rules"] if use_rule_labels else []))
+    dev = dev[trainable].reset_index(drop=True)
+    n_splits = min(n_splits, dev["doc_id"].nunique())
+    if n_splits < 2:
+        raise ModelError("Need at least 2 documents to calibrate.")
+
+    cv_splits = list(GroupKFold(n_splits=n_splits).split(dev, dev["y"], dev["doc_id"]))
+    calibrated = CalibratedClassifierCV(estimator=make_model(), method="sigmoid", cv=cv_splits)
+    calibrated.fit(dev["sentence"], dev["y"])
+
+    _, uncal_preds = cross_validate(data, use_rule_labels=use_rule_labels, n_splits=n_splits)
+    uncal_brier = float(brier_score_loss(uncal_preds["y_true"], uncal_preds["score"]))
+
+    cal_probs = calibrated.predict_proba(uncal_preds["sentence"])[:, 1]
+    reliability = calculate_reliability_curve(uncal_preds["y_true"], cal_probs)
+
+    routes = [route_sentence(p) for p in cal_probs]
+    routing_summary = {
+        "accept": routes.count("accept"),
+        "review": routes.count("review"),
+        "ignore": routes.count("ignore"),
+    }
+
+    report = {
+        "method": "sigmoid",
+        "dev_sentences": int(len(dev)),
+        "hand_sentences_evaluated": int(len(uncal_preds)),
+        "uncalibrated_brier_score": round(uncal_brier, 4),
+        "calibrated_brier_score": reliability["brier_score"],
+        "reliability_curve": reliability["reliability_curve"],
+        "thresholds": {
+            "accept": ACCEPT_THRESHOLD,
+            "review": REVIEW_THRESHOLD,
+        },
+        "routing_summary": routing_summary,
+    }
+
+    Path(model_path).parent.mkdir(parents=True, exist_ok=True)
+    joblib.dump(calibrated, model_path)
+    Path(report_path).parent.mkdir(parents=True, exist_ok=True)
+    Path(report_path).write_text(json.dumps(report, indent=2))
+    return calibrated, report
+
+
 # ---------- Command line ----------
 def _fmt(table):
     pd.set_option("display.width", 200)
@@ -189,10 +268,11 @@ def _fmt(table):
 def main(argv=None):
     import argparse
 
-    parser = argparse.ArgumentParser(description="Model A baseline.")
-    parser.add_argument("command", choices=["data", "cv", "final", "words"])
-    parser.add_argument("--with-rule-labels", action="store_true", help="also train on the rule labels (final)")
+    parser = argparse.ArgumentParser(description="Model A baseline and calibration.")
+    parser.add_argument("command", choices=["data", "cv", "final", "words", "calibrate", "route"])
+    parser.add_argument("--with-rule-labels", action="store_true", help="also train on the rule labels (final/calibrate)")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--text", help="sentence to score and route")
     args = parser.parse_args(argv)
 
     try:
@@ -216,10 +296,27 @@ def main(argv=None):
             _, result = final_model(data, args.with_rule_labels, force=args.force)
             print(json.dumps(result, indent=2))
             print(f"Model saved to {MODEL_PATH}. Test result saved to {TEST_REPORT}.")
-        else:
+        elif args.command == "words":
             words = top_words(joblib.load(MODEL_PATH))
             for key, value in words.items():
                 print(f"{key}: {', '.join(value)}")
+        elif args.command == "calibrate":
+            check_enough(data)
+            _, report = calibrate_model(data, args.with_rule_labels)
+            print(json.dumps(report, indent=2))
+            print(f"\nCalibrated model saved to {CALIBRATED_MODEL_PATH}.")
+            print(f"Calibration report saved to {CALIBRATION_REPORT}.")
+        elif args.command == "route":
+            if not args.text:
+                print("ERROR: give --text to route.", file=sys.stderr)
+                return 1
+            model_file = CALIBRATED_MODEL_PATH if Path(CALIBRATED_MODEL_PATH).exists() else MODEL_PATH
+            model = joblib.load(model_file)
+            prob = float(model.predict_proba([args.text])[0, 1])
+            action = route_sentence(prob)
+            print(f"Sentence: {args.text}")
+            print(f"Calibrated probability: {prob:.4f}")
+            print(f"Action: {action.upper()} (accept >= {ACCEPT_THRESHOLD}, review >= {REVIEW_THRESHOLD}, else ignore)")
     except (ModelError, labeler.LabelError, FileNotFoundError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
         return 1

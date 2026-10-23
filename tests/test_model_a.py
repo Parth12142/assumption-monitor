@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 import joblib
 import pandas as pd
@@ -126,3 +127,62 @@ def test_top_words_show_what_the_model_learned(tmp_path):
     words = model_a.top_words(model, k=15)
     assert any(w in words["assumption"] for w in ["assume", "expects", "projected", "demand", "prices", "rates"])
     assert any(w in words["not_assumption"] for w in ["stores", "company", "office", "founded", "ohio", "texas"])
+
+
+# ---------- Calibration and Thresholds (Day 13) ----------
+def test_route_sentence_respects_fixed_thresholds():
+    assert model_a.route_sentence(0.85) == "accept"
+    assert model_a.route_sentence(0.70) == "accept"
+    assert model_a.route_sentence(0.69) == "review"
+    assert model_a.route_sentence(0.40) == "review"
+    assert model_a.route_sentence(0.39) == "ignore"
+    assert model_a.route_sentence(0.10) == "ignore"
+
+
+def test_calculate_reliability_curve_and_brier_score():
+    y_true = [1, 0, 1, 0, 1, 0, 1, 0]
+    # Perfect probabilities
+    res_perfect = model_a.calculate_reliability_curve(y_true, [1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0], n_bins=2)
+    assert res_perfect["brier_score"] == 0.0
+    assert len(res_perfect["reliability_curve"]) > 0
+
+    # Overconfident wrong probabilities
+    res_bad = model_a.calculate_reliability_curve(y_true, [0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0], n_bins=2)
+    assert res_bad["brier_score"] == 1.0
+
+
+def test_calibrate_model_saves_artifacts_and_computes_metrics(tmp_path):
+    data = dataset(tmp_path)
+    model_file = tmp_path / "m" / "calibrated.joblib"
+    report_file = tmp_path / "r" / "calibration.json"
+    calibrated, report = model_a.calibrate_model(data, False, model_file, report_file, n_splits=3)
+    assert Path(model_file).exists()
+    assert Path(report_file).exists()
+    assert report["method"] == "sigmoid"
+    assert "calibrated_brier_score" in report
+    assert "reliability_curve" in report
+    assert set(report["thresholds"].keys()) == {"accept", "review"}
+    assert set(report["routing_summary"].keys()) == {"accept", "review", "ignore"}
+
+
+def test_calibrate_and_route_cli_commands(tmp_path, monkeypatch, capsys):
+    p = make_files(tmp_path)
+    # Set up repo directory structure in tmp_path
+    (tmp_path / "data" / "labels").mkdir(parents=True, exist_ok=True)
+    (tmp_path / "data" / "labels" / "labels.csv").write_text(p["labels"].read_text())
+    (tmp_path / "data" / "labels" / "auto_day9.csv").write_text(p["auto"].read_text())
+    (tmp_path / "data" / "labels" / "candidates.csv").write_text(p["cand"].read_text())
+    (tmp_path / "data" / "labels" / "frozen_test_docs.txt").write_text(p["frozen"].read_text())
+    monkeypatch.chdir(tmp_path)
+
+    # Calibrate CLI
+    assert model_a.main(["calibrate"]) == 0
+    out = capsys.readouterr().out
+    assert "calibrated_brier_score" in out
+    assert "reliability_curve" in out
+
+    # Route CLI on assumption sentence
+    assert model_a.main(["route", "--text", "We assume that fuel prices will remain stable."]) == 0
+    route_out = capsys.readouterr().out
+    assert "Calibrated probability:" in route_out
+    assert "Action:" in route_out
