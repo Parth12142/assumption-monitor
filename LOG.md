@@ -9,4 +9,6 @@
 - Day 7: moved storage to PostgreSQL with SQLAlchemy and psycopg; read-only queries; credentials in .env; 69 tests. Loaded 2 documents, 67 sentences, 2 series, 4934 weekly rows.
 - Day 8: labeling guide v1, EDGAR-CORPUS 2019 sample (100 cue + 100 non-cue sentences), terminal labeling tool, first 200 labels, 84 tests. Problem hit: [write one]
 - Day 9: rule-based pre-labeling (rules_v1), frozen test documents, 1000 auto-labeled sentences, audit of 40. Rule changes: [write them]. Audit agreement: [write it]
-- Day 10: Model A baseline (TF-IDF + logistic regression), document-separated cross-validation. Rules F1: [..], model F1: [..], model + rule labels F1: [..]. Test F1 (once): [..].
+- Day 10: Model A baseline (TF-IDF + logistic regression), document-separated cross-validation framework established.
+- Day 11: figure extractor module (extract.py) finding numbers, ranges, limits, units, periods, roles, and metric hints. Problem hit: .venv python interpreter symlink broken in snap environment, fixed by relinking. All 32 extractor tests and 153 overall tests passing.
+- Day 12: completed hand labeling for all candidates (241 total validated labels). Document-separated CV (GroupKFold on 166 dev sentences): Rules F1: 0.10, Model (hand only) F1: 0.48, Model + Rule labels F1: 0.33. Final Model A trained on dev (206 sentences) and evaluated once on frozen test set (35 sentences): precision 0.50, recall 0.50, F1 0.50. Saved model to models/model_a_baseline.joblib.
