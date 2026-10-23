@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TESLA MACRO FSD // ASSUMPTION MONITOR OS v12</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <!-- ========================================================================
+       TESLA OS v12 TOP STATUS BAR (MINIMALIST INFOTAINMENT HEADER)
+       ======================================================================== -->
+  <header class="tesla-statusbar" id="topbar">
+    <div class="statusbar-left">
+      <!-- TESLA T-STYLE WORDMARK -->
+      <div class="tesla-wordmark">
+        <span class="t-logo">T</span>
+        <span class="t-brand">ASSUMPTION<span>AUTOPILOT</span></span>
+      </div>
+
+      <!-- PRND-STYLE PLAN SELECTOR -->
+      <div class="prnd-selector" id="doc-selector-group" role="group" aria-label="Active Business Plan Gear">
+        <button class="prnd-gear active" data-doc="plan1" id="btn-doc-plan1" title="Plan 1: NorthStar Freight Logistics PDF">P1</button>
+        <button class="prnd-gear" data-doc="plan2" id="btn-doc-plan2" title="Plan 2: GreenCart Retail DOCX">P2</button>
+        <button class="prnd-gear" data-doc="plan3" id="btn-doc-plan3" title="Plan 3: AeroVantage Aviation Generated PDF">P3</button>
+      </div>
+
+      <span class="active-plan-pill" id="active-doc-title">NorthStar Freight Pvt. Ltd. — Business Plan 2026–2029</span>
+      <a class="tesla-chip-link" id="btn-download-active-doc" href="/api/download-pdf?doc=plan1" target="_blank" rel="noopener" title="Download Raw Plan File">
+        ⬇ RAW PDF/DOCX
+      </a>
+    </div>
+
+    <!-- CENTER: AS-OF TIME-TRAVEL HORIZON (NO-LOOKAHEAD) -->
+    <div class="statusbar-center">
+      <span class="micro-label">POINT-IN-TIME HORIZON</span>
+      <div class="tesla-segmented" id="date-preset-group">
+        <button class="seg-item" data-date="2026-07-15">JUL '26</button>
+        <button class="seg-item" data-date="2026-08-26">AUG '26</button>
+        <button class="seg-item" data-date="2026-09-23">SEP '26</button>
+        <button class="seg-item active" data-date="2026-10-16">OCT '26</button>
+      </div>
+      <input type="date" id="as-of-date-input" class="tesla-date-picker" value="2026-10-16" min="2021-01-01" max="2026-10-22" aria-label="As-Of Date" />
+    </div>
+
+    <!-- RIGHT: DETECTOR ENGINE, ML GATE & SYSTEM ACTIONS -->
+    <div class="statusbar-right">
+      <div class="tesla-segmented" id="mode-selector-group" title="Detection Engine Mode">
+        <button class="seg-item active" data-mode="hybrid" id="btn-mode-hybrid">HYBRID</button>
+        <button class="seg-item" data-mode="model_only" id="btn-mode-model">MODEL A</button>
+        <button class="seg-item" data-mode="rules_only" id="btn-mode-rules">RULES V1</button>
+      </div>
+
+      <div class="gate-pill" title="Model A Probability Threshold">
+        <span class="micro-label">GATE</span>
+        <input type="range" id="threshold-slider" class="tesla-slider-mini" min="0.15" max="0.85" step="0.05" value="0.45" aria-label="ML Gate" />
+        <span class="mono-readout" id="threshold-display">0.45</span>
+      </div>
+
+      <button class="tesla-btn tesla-btn-blue" id="btn-open-pdf-modal">
+        + INGEST PDF
+      </button>
+      <button class="tesla-btn tesla-btn-subtle" id="btn-reset-session" title="Reset all human review overrides and custom injected clauses">
+        RESET
+      </button>
+      <button class="tesla-icon-btn" id="btn-theme-toggle" title="Switch Dark Obsidian / Showroom White Mode" aria-label="Toggle Theme">
+        <span id="theme-icon">☀</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       TESLA SPLIT-SCREEN TOUCHSCREEN STAGE
+       LEFT: 3D FULL SELF-DRIVING (FSD) TELEMETRY VISUALIZER (THREE.JS)
+       RIGHT: DYNAMIC APP WORKSPACE (DECK / MATRIX / HORIZON / NEURAL LAB)
+       ======================================================================== -->
+  <div class="tesla-touchscreen-layout">
+    <!-- LEFT COLUMN: PERSISTENT 3D FSD MACRO VISUALIZATION -->
+    <aside class="fsd-stage-column" aria-label="3D Full Self-Driving Macro Telemetry Stage">
+      <div class="fsd-hud-top">
+        <!-- SPEEDOMETER-STYLE VIABILITY READOUT -->
+        <div class="speedometer-cluster">
+          <div class="speed-number" id="kpi-viability-score">68</div>
+          <div class="speed-unit">VIABILITY INDEX</div>
+          <div class="autopilot-badge" id="hud-regime-badge">
+            <span class="ap-wheel">◎</span>
+            <span id="hud-regime-kicker">AUTOPILOT ACTIVE</span>
+          </div>
+        </div>
+
+        <!-- SPEED-LIMIT SIGN STYLE METRICS -->
+        <div class="fsd-signs-row">
+          <div class="limit-sign" title="Extracted Plan Clauses">
+            <span class="sign-lbl">CLAUSES</span>
+            <span class="sign-val" id="kpi-total-sentences">39</span>
+          </div>
+          <div class="limit-sign sign-blue" title="Detected Assumptions">
+            <span class="sign-lbl">ASSUMP</span>
+            <span class="sign-val" id="kpi-assumptions-detected">15</span>
+          </div>
+          <div class="limit-sign sign-red" title="Breached Claims">
+            <span class="sign-lbl">BREACH</span>
+            <span class="sign-val" id="kpi-breached-claims">7</span>
+          </div>
+          <div class="limit-sign sign-green" title="Holding Claims">
+            <span class="sign-lbl">HOLDING</span>
+            <span class="sign-val" id="kpi-holding-claims">0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- THREE.JS 3D FSD VECTOR CANVAS -->
+      <div class="three-canvas-stage" id="three-container">
+        <canvas id="three-canvas" aria-label="Interactive 3D FSD Telemetry Canvas"></canvas>
+
+        <!-- CAMERA VIEW PILLS FLOATING TOP-RIGHT OF 3D CANVAS -->
+        <div class="fsd-camera-bar" role="group" aria-label="3D Camera View Modes">
+          <button class="cam-pill active" data-cam="fsd" id="cam-btn-orbit" title="Tesla FSD Corridor Perspective">FSD LANE</button>
+          <button class="cam-pill" data-cam="orbit" id="cam-btn-wave" title="360° Orbital Core View">ORBIT</button>
+          <button class="cam-pill" data-cam="radar" id="cam-btn-radar" title="Top-Down Lidar Radar">TOP RADAR</button>
+          <button class="cam-pill" id="cam-btn-wireframe" title="Toggle Mesh Wireframe">WIRE</button>
+          <button class="cam-pill" id="cam-btn-pause" title="Pause / Resume 3D Motion">PAUSE</button>
+          <button class="cam-pill" id="cam-btn-reset" title="Reset Camera">RESET</button>
+        </div>
+
+        <!-- 3D NODE TELEMETRY OVERLAY CARD (BOTTOM OF FSD STAGE) -->
+        <div class="fsd-bottom-overlay">
+          <div class="fsd-legend-strip">
+            <span class="legend-item"><i class="dot dot-breach"></i> BREACH (<b id="3d-count-breach">0</b>)</span>
+            <span class="legend-item"><i class="dot dot-watch"></i> WARNING (<b id="3d-count-watch">0</b>)</span>
+            <span class="legend-item"><i class="dot dot-ok"></i> HOLDING (<b id="3d-count-ok">0</b>)</span>
+            <span class="legend-item"><i class="dot dot-info"></i> UNMAPPED (<b id="3d-count-info">0</b>)</span>
+          </div>
+          <div class="fsd-selected-node" id="three-node-readout">
+            <div class="node-kicker">FSD SPATIAL OBJECT TELEMETRY // CLICK ANY 3D NODE OR DRAG TO ORBIT</div>
+            <div class="node-text" id="three-node-text">Hover or click any 3D assumption node in the FSD corridor to open its Neural X-Ray &amp; Review card.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- QUICK MARGIN & REGIME TELEMETRY FOOTER UNDER FSD -->
+      <div class="fsd-financial-strip">
+        <div class="fin-metric">
+          <span class="micro-label">BASE MARGIN</span>
+          <strong id="fin-base-margin">9.2%</strong>
+        </div>
+        <div class="fin-metric">
+          <span class="micro-label">MODELED MARGIN</span>
+          <strong id="fin-proj-margin" class="text-cyan">5.9%</strong>
+        </div>
+        <div class="fin-metric">
+          <span class="micro-label">MACRO IMPACT</span>
+          <strong id="fin-margin-bps" class="text-crimson">-330 bps</strong>
+        </div>
+        <div class="fin-metric">
+          <span class="micro-label">HUMAN REVIEWS</span>
+          <strong id="kpi-reviewed-count">0</strong>
+        </div>
+      </div>
+    </aside>
+
+    <!-- RIGHT COLUMN: TESLA INFOTAINMENT APP WORKSPACE -->
+    <main class="tesla-workspace-column">
+      <!-- ====================================================================
+           PANEL 01 // AUTOPILOT COMMAND DECK
+           ==================================================================== -->
+      <section id="panel-command" class="workspace-panel active" role="tabpanel">
+        <!-- QUICK ADD & LIVE PREDICT NEW ASSUMPTION BAR (TESLA NAVIGATION SEARCH STYLE) -->
+        <div class="tesla-card quick-predict-card">
+          <div class="card-top-row">
+            <div>
+              <span class="tesla-kicker">LIVE ASSUMPTION PREDICTION &amp; PLAN INJECTION</span>
+              <h2 class="tesla-heading">Test or Add a Strategic Assumption Clause</h2>
+            </div>
+            <div class="preset-pills">
+              <button class="tesla-pill-btn" data-sample="We expect the global crude oil price to remain between USD 68 and USD 80 per barrel.">Oil $68–$80/bbl</button>
+              <button class="tesla-pill-btn" data-sample="We assume the exchange rate will remain close to INR 83.5 per USD during 2026.">INR 83.5/USD</button>
+              <button class="tesla-pill-btn" data-sample="We assume that the average diesel price will stay at or below Rs. 92 per litre.">Diesel ≤ Rs. 92/L</button>
+              <button class="tesla-pill-btn" data-sample="Prices above USD 105 per barrel would reduce our operating margin by 3%.">Oil ≤ $105 Trigger</button>
+            </div>
+          </div>
+
+          <div class="tesla-search-bar">
+            <span class="search-icon">⚡</span>
+            <input
+              type="text"
+              id="quick-assumption-input"
+              class="tesla-input-clean"
+              placeholder="Enter a new assumption sentence to run Model A + Rules v1 + FRED verification..."
+              value="We expect the global crude oil price to remain between USD 68 and USD 80 per barrel."
+            />
+            <button class="tesla-btn tesla-btn-dark" id="btn-quick-predict" title="Predict with Model A, Rules v1 & FRED without modifying the plan">
+              PREDICT ONLY
+            </button>
+            <button class="tesla-btn tesla-btn-blue" id="btn-quick-inject" title="Predict and permanently append this assumption to the active plan">
+              + INJECT INTO PLAN
+            </button>
+          </div>
+
+          <!-- LIVE PREDICTION RESULT BANNER -->
+          <div id="quick-prediction-preview" class="prediction-result-banner hidden">
+            <div class="pred-banner-header">
+              <span class="status-badge" id="quick-pred-badge">ASSUMPTION</span>
+              <span class="pred-meta-mono" id="quick-pred-meta">Model A: — | Rules v1: —</span>
+              <span class="status-badge" id="quick-pred-claim-badge">FRED STATUS</span>
+            </div>
+            <div class="pred-banner-body" id="quick-pred-explanation"></div>
+          </div>
+        </div>
+
+        <!-- MONITORED QUANTITATIVE CLAIMS GRID -->
+        <div class="tesla-card">
+          <div class="card-top-row">
+            <div>
+              <span class="tesla-kicker">POINT-IN-TIME FRED SURVEILLANCE (<span id="kpi-monitored-total">0</span> MONITORED, <span id="kpi-warning-claims">0</span> WARNING)</span>
+              <h2 class="tesla-heading">Quantitative Plan Claims vs. Actual FRED Series</h2>
+            </div>
+            <div class="card-actions-inline">
+              <button class="tesla-btn tesla-btn-subtle" data-jump-tab="matrix" data-jump-filter="assumptions">
+                OPEN CLAUSE MATRIX →
+              </button>
+              <button class="tesla-btn tesla-btn-subtle" data-jump-tab="horizon">
+                FRED CHARTS →
+              </button>
+            </div>
+          </div>
+
+          <div id="monitored-claims-grid" class="tesla-claims-grid">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+        <!-- LOWER SPLIT: MACRO COUNTERFACTUAL SIMULATOR + CLEANING AUDIT LOG -->
+        <div class="deck-two-col">
+          <!-- COUNTERFACTUAL STRESS SIMULATOR -->
+          <div class="tesla-card">
+            <div class="card-top-row">
+              <div>
+                <span class="tesla-kicker">COUNTERFACTUAL SHOCK SIMULATOR</span>
+                <h3 class="tesla-heading-sm">Live FRED Indicator Override</h3>
+              </div>
+              <button class="tesla-btn tesla-btn-subtle btn-xs" id="btn-reset-sim">RESTORE LIVE</button>
+            </div>
+            <p class="tesla-subtext" id="financial-narrative-text">
+              Drag sliders or use the bottom dock climate steppers to simulate WTI Crude and INR/USD shocks.
+            </p>
+
+            <div class="tesla-slider-group">
+              <div class="slider-label-row">
+                <span class="series-tag">DCOILWTICO</span>
+                <span class="series-title">WTI Crude Oil (USD / bbl)</span>
+                <strong class="slider-val-readout" id="sim-oil-val">$95.55</strong>
+              </div>
+              <input type="range" id="sim-oil-slider" class="tesla-range" min="50" max="130" step="0.5" value="95.55" />
+            </div>
+
+            <div class="tesla-slider-group">
+              <div class="slider-label-row">
+                <span class="series-tag">DEXINUS</span>
+                <span class="series-title">Spot Exchange Rate (INR / USD)</span>
+                <strong class="slider-val-readout" id="sim-fx-val">₹92.75</strong>
+              </div>
+              <input type="range" id="sim-fx-slider" class="tesla-range" min="78" max="98" step="0.1" value="92.75" />
+            </div>
+
+            <div class="indicator-cards-mini" id="indicator-snapshot-list">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+
+          <!-- DETERMINISTIC CLEANING & EXCISION AUDIT LOG -->
+          <div class="tesla-card">
+            <div class="card-top-row">
+              <div>
+                <span class="tesla-kicker">DETERMINISTIC PRE-PROCESSING AUDIT</span>
+                <h3 class="tesla-heading-sm">Boilerplate &amp; Table Excision Log</h3>
+              </div>
+              <span class="tesla-badge-mono" id="audit-removed-badge">0 EXCISED</span>
+            </div>
+            <span class="hidden" id="kpi-cleaned-tag">0 EXCISED</span>
+            <span class="hidden" id="kpi-mode-tag">HYBRID</span>
+
+            <div class="audit-reason-pills" id="audit-metrics-row">
+              <!-- Populated by app.js -->
+            </div>
+            <div class="audit-scroll-box" id="audit-removed-list">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           PANEL 02 // CLAUSE MATRIX & HUMAN-IN-THE-LOOP REVIEW WORKBENCH
+           ==================================================================== -->
+      <section id="panel-matrix" class="workspace-panel" role="tabpanel">
+        <div class="tesla-card">
+          <div class="matrix-header-bar">
+            <div>
+              <span class="tesla-kicker">HUMAN-IN-THE-LOOP CLASSIFICATION OVERRIDE</span>
+              <h2 class="tesla-heading">Document Clause Matrix &amp; Interactive Review</h2>
+            </div>
+
+            <div class="matrix-filter-controls">
+              <input
+                type="search"
+                id="matrix-search-input"
+                class="tesla-input"
+                placeholder="Search sentence, section, or ID..."
+              />
+
+              <select id="matrix-topic-select" class="tesla-select" aria-label="Filter by Topic">
+                <option value="all">All Topics</option>
+                <option value="fuel">fuel (Oil / Diesel)</option>
+                <option value="currency">currency (INR/USD)</option>
+                <option value="demand">demand (Volume / Growth)</option>
+                <option value="labor">labor (Wages / Staff)</option>
+                <option value="rates">rates (Interest Rates)</option>
+                <option value="supplier">supplier (Tyres / Leases)</option>
+                <option value="regulation">regulation (Policy)</option>
+                <option value="other">other</option>
+              </select>
+
+              <div class="tesla-segmented" id="matrix-filter-group">
+                <button class="seg-item active" data-filter="all">ALL</button>
+                <button class="seg-item" data-filter="assumptions">ASSUMPTIONS</button>
+                <button class="seg-item" data-filter="needs_review">NEEDS REVIEW</button>
+                <button class="seg-item" data-filter="reviewed">REVIEWED ✓</button>
+                <button class="seg-item" data-filter="non_assumptions">FACTUAL</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- INLINE ADD ASSUMPTION BAR -->
+          <div class="matrix-add-strip">
+            <input
+              type="text"
+              id="matrix-add-input"
+              class="tesla-input"
+              placeholder="Type a new assumption clause to classify and append directly to the active document..."
+            />
+            <input
+              type="text"
+              id="matrix-add-section"
+              class="tesla-input matrix-sec-input"
+              value="5. Custom Strategic Assumptions"
+              placeholder="Section name"
+            />
+            <button class="tesla-btn tesla-btn-blue" id="btn-matrix-add">
+              + PREDICT &amp; APPEND CLAUSE
+            </button>
+          </div>
+
+          <div class="table-scroll-wrap">
+            <table class="tesla-table" id="clause-matrix-table">
+              <thead>
+                <tr>
+                  <th>CLAUSE ID</th>
+                  <th>SENTENCE TEXT (CLICK FOR X-RAY)</th>
+                  <th>STATUS</th>
+                  <th>MODEL A</th>
+                  <th>RULES V1</th>
+                  <th>TOPIC</th>
+                  <th>FRED CHECK</th>
+                  <th>HUMAN REVIEW OVERRIDE</th>
+                </tr>
+              </thead>
+              <tbody id="clause-matrix-tbody">
+                <!-- Populated by app.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           PANEL 03 // FRED MACRO HORIZON (TIME-SERIES EXPLORER)
+           ==================================================================== -->
+      <section id="panel-horizon" class="workspace-panel" role="tabpanel">
+        <div class="tesla-card">
+          <div class="card-top-row">
+            <div>
+              <span class="tesla-kicker">SHA-256 VERIFIED FRED TIME-SERIES // W-FRI FREQUENCY</span>
+              <h2 class="tesla-heading">Macro Indicator Horizon &amp; Plan Corridor Overlays</h2>
+            </div>
+            <div class="tesla-segmented" id="horizon-years-group">
+              <button class="seg-item" data-years="1">1Y</button>
+              <button class="seg-item active" data-years="3">3Y</button>
+              <button class="seg-item" data-years="5">5Y</button>
+              <button class="seg-item" data-years="0">MAX</button>
+            </div>
+          </div>
+
+          <!-- DCOILWTICO SVG CHART -->
+          <div class="horizon-chart-block" id="chart-card-DCOILWTICO">
+            <div class="chart-header-line">
+              <div>
+                <span class="series-tag">DCOILWTICO</span>
+                <strong class="chart-title">WTI Spot Crude Oil (USD / Barrel)</strong>
+              </div>
+              <div class="chart-badges" id="stats-DCOILWTICO"></div>
+            </div>
+            <div class="svg-chart-stage" id="svg-wrap-DCOILWTICO"></div>
+          </div>
+
+          <!-- DEXINUS SVG CHART -->
+          <div class="horizon-chart-block" id="chart-card-DEXINUS">
+            <div class="chart-header-line">
+              <div>
+                <span class="series-tag">DEXINUS</span>
+                <strong class="chart-title">India / U.S. Foreign Exchange Rate (INR / USD)</strong>
+              </div>
+              <div class="chart-badges" id="stats-DEXINUS"></div>
+            </div>
+            <div class="svg-chart-stage" id="svg-wrap-DEXINUS"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           PANEL 04 // NEURAL MODEL LAB, SANDBOX & LIVE RETRAINING
+           ==================================================================== -->
+      <section id="panel-modellab" class="workspace-panel" role="tabpanel">
+        <!-- INTERACTIVE SENTENCE EXPLAINABILITY SANDBOX -->
+        <div class="tesla-card">
+          <div class="card-top-row">
+            <div>
+              <span class="tesla-kicker">NEURAL NLP + MACRO SANDBOX</span>
+              <h2 class="tesla-heading">Live Sentence X-Ray &amp; Token Log-Odds Attribution</h2>
+            </div>
+            <div class="preset-pills">
+              <button class="tesla-pill-btn sandbox-preset" data-text="We expect the global crude oil price to remain between USD 68 and USD 80 per barrel.">Crude $68–$80</button>
+              <button class="tesla-pill-btn sandbox-preset" data-text="We assume the exchange rate will remain close to INR 83.5 per USD during the planning period.">INR 83.5/USD</button>
+              <button class="tesla-pill-btn sandbox-preset" data-text="The interest rate on the proposed fleet expansion loan is assumed to be 9.5% per annum.">Rate 9.5%</button>
+              <button class="tesla-pill-btn sandbox-preset" data-text="NorthStar Freight operates 48 regional delivery trucks out of Pune and Nashik.">Factual Baseline</button>
+            </div>
+          </div>
+
+          <div class="tesla-search-bar">
+            <span class="search-icon">🔍</span>
+            <input
+              type="text"
+              id="sandbox-sentence-input"
+              class="tesla-input-clean"
+              value="We expect the global crude oil price to remain between USD 68 and USD 80 per barrel."
+              placeholder="Enter any sentence to inspect TF-IDF token weights, Rules v1 signals, and FRED evaluation..."
+            />
+            <button class="tesla-btn tesla-btn-dark" id="btn-sandbox-explain">
+              RUN X-RAY
+            </button>
+            <button class="tesla-btn tesla-btn-blue" id="btn-sandbox-inject">
+              + INJECT INTO PLAN
+            </button>
+          </div>
+
+          <div class="sandbox-results-grid" id="sandbox-results-grid">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+        <!-- GROUPKFOLD CV METRICS + LIVE RETRAINING + TF-IDF WEIGHTS -->
+        <div class="deck-two-col">
+          <div class="tesla-card">
+            <div class="card-top-row">
+              <div>
+                <span class="tesla-kicker">GROUPKFOLD EVALUATION BY DOCUMENT</span>
+                <h3 class="tesla-heading-sm">Model A Benchmark &amp; Human-in-the-Loop Retraining</h3>
+              </div>
+              <button class="tesla-btn tesla-btn-blue" id="btn-retrain-model">
+                ↻ RETRAIN MODEL A
+              </button>
+            </div>
+
+            <div class="cv-summary-grid" id="cv-summary-grid"></div>
+            <div class="cv-folds-wrap" id="cv-folds-wrap"></div>
+          </div>
+
+          <div class="tesla-card">
+            <div class="card-top-row">
+              <div>
+                <span class="tesla-kicker">LEARNED LOGISTIC REGRESSION COEFFICIENTS</span>
+                <h3 class="tesla-heading-sm">Top Positive vs. Negative Vocabulary Cues</h3>
+              </div>
+            </div>
+            <div class="weights-columns">
+              <div>
+                <h4 class="micro-heading text-cyan">+ ASSUMPTION CUES</h4>
+                <div id="top-pos-weights" class="weights-bars"></div>
+              </div>
+              <div>
+                <h4 class="micro-heading text-muted">− FACTUAL CUES</h4>
+                <div id="top-neg-weights" class="weights-bars"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ========================================================================
+       TESLA OS v12 BOTTOM DOCK (CLIMATE-STYLE SHOCK STEPPERS + APP LAUNCHER)
+       ======================================================================== -->
+  <footer class="tesla-bottom-dock" role="navigation" aria-label="Tesla OS Bottom App Dock">
+    <!-- LEFT CLIMATE-STYLE STEPPER: WTI CRUDE OIL -->
+    <div class="dock-climate-control" title="Step WTI Crude Oil Price Down/Up">
+      <button class="climate-arrow" id="dock-oil-down" aria-label="Decrease Oil Price">‹</button>
+      <div class="climate-readout">
+        <span class="climate-lbl">WTI CRUDE</span>
+        <strong class="climate-val" id="dock-oil-val">$95.6</strong>
+      </div>
+      <button class="climate-arrow" id="dock-oil-up" aria-label="Increase Oil Price">›</button>
+    </div>
+
+    <!-- CENTER APP ICONS (WORKSPACE TABS) -->
+    <div class="dock-apps" role="tablist">
+      <button class="dock-app-btn active" data-tab="command" id="tab-btn-command" role="tab" aria-selected="true">
+        <span class="dock-icon">◎</span>
+        <span class="dock-label">AUTOPILOT</span>
+      </button>
+      <button class="dock-app-btn" data-tab="matrix" id="tab-btn-matrix" role="tab" aria-selected="false">
+        <span class="dock-icon">≣</span>
+        <span class="dock-label">CLAUSES (<span id="nav-clause-count">39</span>)</span>
+      </button>
+      <button class="dock-app-btn" data-tab="horizon" id="tab-btn-horizon" role="tab" aria-selected="false">
+        <span class="dock-icon">📈</span>
+        <span class="dock-label">MACRO FRED</span>
+      </button>
+      <button class="dock-app-btn" data-tab="modellab" id="tab-btn-modellab" role="tab" aria-selected="false">
+        <span class="dock-icon">⚡</span>
+        <span class="dock-label">NEURAL LAB</span>
+      </button>
+      <button class="dock-app-btn dock-app-ingest" id="dock-btn-ingest" type="button">
+        <span class="dock-icon">📄</span>
+        <span class="dock-label">NEW PDF</span>
+      </button>
+    </div>
+
+    <!-- RIGHT CLIMATE-STYLE STEPPER: INR/USD EXCHANGE RATE -->
+    <div class="dock-climate-control" title="Step INR/USD Exchange Rate Down/Up">
+      <button class="climate-arrow" id="dock-fx-down" aria-label="Decrease INR/USD">‹</button>
+      <div class="climate-readout">
+        <span class="climate-lbl">INR / USD</span>
+        <strong class="climate-val" id="dock-fx-val">₹92.8</strong>
+      </div>
+      <button class="climate-arrow" id="dock-fx-up" aria-label="Increase INR/USD">›</button>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL: INGEST NEW PDF / PYMUPDF GENERATOR / UPLOAD .PDF OR .DOCX
+       ======================================================================== -->
+  <div id="pdf-modal-backdrop" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="pdf-modal-title">
+    <div class="tesla-modal">
+      <div class="modal-header">
+        <div>
+          <span class="tesla-kicker">DOCUMENT INGESTION &amp; PYMUPDF SYNTHESIS</span>
+          <h2 class="tesla-heading" id="pdf-modal-title">Ingest or Generate Business Plan PDF</h2>
+        </div>
+        <button class="tesla-close-btn" id="btn-close-pdf-modal" aria-label="Close">✕</button>
+      </div>
+
+      <div class="tesla-segmented modal-seg-full" id="ingest-mode-tabs">
+        <button class="seg-item active" data-ingest-tab="generate">01 · GENERATE NEW PDF (PyMuPDF)</button>
+        <button class="seg-item" data-ingest-tab="upload">02 · UPLOAD .PDF / .DOCX</button>
+        <button class="seg-item" data-ingest-tab="paste">03 · PASTE RAW PLAN TEXT</button>
+      </div>
+
+      <!-- TAB 1: DYNAMIC PDF GENERATOR -->
+      <div class="ingest-tab-panel active" id="ingest-panel-generate">
+        <p class="tesla-subtext">
+          Generate a real 3-page PDF business plan (<code>data/raw/generated/plan3.pdf</code>) with headers, footers, page numbers, and financial tables, then immediately run the full extraction, cleaning audit, and FRED verification pipeline.
+        </p>
+        <div class="form-grid-2">
+          <div class="form-field full-width">
+            <label for="gen-company-name">Company / Plan Name</label>
+            <input type="text" id="gen-company-name" class="tesla-input" value="AeroVantage Freight &amp; Aviation Pvt. Ltd." />
+          </div>
+          <div class="form-field">
+            <label for="gen-crude-low">Crude Oil Lower Bound (USD/bbl)</label>
+            <input type="number" id="gen-crude-low" class="tesla-input" value="68.0" step="1" />
+          </div>
+          <div class="form-field">
+            <label for="gen-crude-high">Crude Oil Upper Bound (USD/bbl)</label>
+            <input type="number" id="gen-crude-high" class="tesla-input" value="82.0" step="1" />
+          </div>
+          <div class="form-field">
+            <label for="gen-diesel-cap">Diesel Price Cap (Rs. / Litre)</label>
+            <input type="number" id="gen-diesel-cap" class="tesla-input" value="94.0" step="1" />
+          </div>
+          <div class="form-field">
+            <label for="gen-fx-target">Exchange Rate Target (INR / USD)</label>
+            <input type="number" id="gen-fx-target" class="tesla-input" value="83.5" step="0.5" />
+          </div>
+          <div class="form-field">
+            <label for="gen-rate-target">Fleet Loan Interest Rate (%)</label>
+            <input type="number" id="gen-rate-target" class="tesla-input" value="9.8" step="0.1" />
+          </div>
+          <div class="form-field">
+            <label for="gen-demand-growth">Cargo Demand Growth (% / yr)</label>
+            <input type="number" id="gen-demand-growth" class="tesla-input" value="11.0" step="0.5" />
+          </div>
+        </div>
+        <div class="modal-footer-actions">
+          <a href="/api/download-pdf?doc=plan3" target="_blank" rel="noopener" class="tesla-btn tesla-btn-dark" id="btn-download-gen-pdf">
+            ⬇ DOWNLOAD GENERATED PDF
+          </a>
+          <button class="tesla-btn tesla-btn-blue" id="btn-run-generate-pdf">
+            ⚡ GENERATE &amp; INGEST PDF NOW
+          </button>
+        </div>
+      </div>
+
+      <!-- TAB 2: FILE UPLOAD -->
+      <div class="ingest-tab-panel" id="ingest-panel-upload">
+        <p class="tesla-subtext">
+          Select any <code>.pdf</code> or <code>.docx</code> file from your computer to extract sentences, excise boilerplate, classify assumptions, and verify against FRED.
+        </p>
+        <div class="upload-dropzone" id="upload-dropzone">
+          <input type="file" id="file-upload-input" accept=".pdf,.docx,.txt" class="file-input-hidden" />
+          <div class="dropzone-icon">📄</div>
+          <div class="dropzone-title" id="upload-filename-display">Click to choose a .PDF or .DOCX document</div>
+          <button type="button" class="tesla-btn tesla-btn-dark" id="btn-Browse-file">CHOOSE FILE</button>
+        </div>
+        <div class="modal-footer-actions">
+          <button class="tesla-btn tesla-btn-blue" id="btn-submit-upload" disabled>
+            🚀 INGEST UPLOADED FILE
+          </button>
+        </div>
+      </div>
+
+      <!-- TAB 3: PASTE RAW TEXT -->
+      <div class="ingest-tab-panel" id="ingest-panel-paste">
+        <textarea id="raw-text-input" class="tesla-textarea" rows="7">1. Executive Summary
+Hyperion Autonomous Freight Pvt. Ltd. operates electric and diesel logistics hubs across Western India.
+
+2. Key Macroeconomic Assumptions
+We expect the global crude oil price to remain between USD 68 and USD 80 per barrel through 2027.
+We assume that the average diesel price will stay at or below Rs. 92 per litre throughout the plan period.
+We assume the exchange rate will remain close to INR 83.5 per USD during the planning period.
+The interest rate on the proposed fleet expansion loan is assumed to be 9.2% per annum.</textarea>
+        <div class="modal-footer-actions">
+          <button class="tesla-btn tesla-btn-blue" id="btn-submit-raw-text">
+            ⚡ ANALYZE CUSTOM TEXT PLAN
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       SLIDE-OVER NEURAL X-RAY & SENTENCE REVIEW DRAWER
+       ======================================================================== -->
+  <aside id="inspector-drawer" class="inspector-drawer hidden" aria-label="Clause X-Ray & Human Review Drawer">
+    <div class="drawer-header">
+      <div>
+        <span class="tesla-kicker">NEURAL X-RAY // SENTENCE TELEMETRY</span>
+        <h3 class="tesla-heading-sm" id="drawer-sentence-id">plan1-s001</h3>
+      </div>
+      <button class="tesla-close-btn" id="btn-close-drawer" aria-label="Close Drawer">✕</button>
+    </div>
+
+    <div class="drawer-body">
+      <div class="drawer-sentence-box" id="drawer-sentence-text"></div>
+
+      <div class="drawer-card">
+        <div class="drawer-row-between">
+          <span class="tesla-kicker">HUMAN-IN-THE-LOOP LABEL OVERRIDE</span>
+          <span class="tesla-badge-mono" id="drawer-review-status">AUTO</span>
+        </div>
+        <div class="review-btn-group">
+          <button class="btn-review btn-approve" id="drawer-btn-approve" data-decision="1">✓ ASSUMPTION (1)</button>
+          <button class="btn-review btn-reject" id="drawer-btn-reject" data-decision="0">✕ REJECT (0)</button>
+          <button class="btn-review btn-flag" id="drawer-btn-flag" data-decision="needs_review">? NEEDS REVIEW</button>
+        </div>
+        <div class="drawer-topic-row">
+          <label for="drawer-topic-select">Topic:</label>
+          <select id="drawer-topic-select" class="tesla-select">
+            <option value="fuel">fuel</option>
+            <option value="currency">currency</option>
+            <option value="demand">demand</option>
+            <option value="labor">labor</option>
+            <option value="rates">rates</option>
+            <option value="supplier">supplier</option>
+            <option value="regulation">regulation</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="drawer-card">
+        <span class="tesla-kicker">MODEL A vs. RULES V1 DIAGNOSTICS</span>
+        <div class="drawer-dual-grid" id="drawer-dual-grid"></div>
+      </div>
+
+      <div class="drawer-card">
+        <span class="tesla-kicker">TF-IDF TOKEN LOG-ODDS ATTRIBUTION</span>
+        <div id="drawer-token-bars" class="weights-bars"></div>
+      </div>
+
+      <div class="drawer-card">
+        <span class="tesla-kicker">FRED INDICATOR VERIFICATION</span>
+        <div id="drawer-claim-box" class="drawer-claim-box"></div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="telemetry-toast" class="telemetry-toast hidden" role="status" aria-live="polite">
+    <span class="toast-dot"></span>
+    <span id="toast-message">Autopilot Telemetry Ready.</span>
+  </div>
+
+  <script src="/static/vendor/three.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
